@@ -5,10 +5,9 @@
 int main(int argc, char* argv[])
 {
     QApplication a(argc, argv);
-    QPushButton button("Hello world!", nullptr);
+    QPushButton button("Pruebas!", nullptr);
     button.resize(200, 100);
     button.show();
-    std::cout << "dsa" << std::endl;
     return QApplication::exec();
 
 }
