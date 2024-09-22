@@ -1,4 +1,4 @@
-# Install script for directory: /home/jeremy/Codigos/Tarea/Datos 2/Proyecto2
+# Install script for directory: /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

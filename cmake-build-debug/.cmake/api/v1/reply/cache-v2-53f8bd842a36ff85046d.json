@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug"
+			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -219,7 +219,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -235,7 +235,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELEASE",
@@ -251,7 +251,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -267,7 +267,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -347,7 +347,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-g"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -363,7 +363,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-Os -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -379,7 +379,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-O3 -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_DLLTOOL",
@@ -423,7 +423,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unknown"
+			"value" : "ELF"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2"
+			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -650,12 +650,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/snap/clion/296/bin/ninja/linux/x64/ninja"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -850,12 +854,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "noop for ranlib"
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : ":"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1147,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug"
+			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
 		},
 		{
 			"name" : "Proyecto2_IS_TOP_LEVEL",
@@ -1171,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2"
+			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
 		},
 		{
 			"name" : "Qt5Core_DIR",
@@ -1231,7 +1239,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "FALSE"
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

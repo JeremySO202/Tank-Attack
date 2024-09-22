@@ -1,9 +1,11 @@
 Proyecto2_autogen/timestamp: \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Proyecto2/CMakeLists.txt \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Proyecto2/main.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/CMakeLists.txt \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
 	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
 	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \

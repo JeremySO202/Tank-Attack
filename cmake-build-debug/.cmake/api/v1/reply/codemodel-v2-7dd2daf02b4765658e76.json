@@ -43,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Proyecto2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Proyecto2-Debug-2057d7bea51af81eeeec.json",
+					"jsonFile" : "target-Proyecto2-Debug-f42e78d003f13c424971.json",
 					"name" : "Proyecto2",
 					"projectIndex" : 0
 				},
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug",
-		"source" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2"
+		"build" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug",
+		"source" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
 	},
 	"version" : 
 	{

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o CMakeFiles/Proyecto2.dir/main.cpp.o CMakeFiles/Proyecto2.dir/Mapa.cpp.o -o Proyecto2  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13

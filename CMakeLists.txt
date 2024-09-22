@@ -13,7 +13,8 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(Proyecto2 main.cpp)
+add_executable(Proyecto2 main.cpp
+        Mapa.cpp)
 target_link_libraries(Proyecto2
         Qt5::Core
         Qt5::Gui
