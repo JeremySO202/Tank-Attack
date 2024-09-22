@@ -7,6 +7,10 @@
 #include <iostream>
 #include <ostream>
 
+#include "../Objetos/Indestructible.h"
+#include "../Objetos/Suelo.h"
+#include "../Objetos/Tanque.h"
+
 /**
  * Inicia y calcula las distancias de la matriz de adyacencia
  */
@@ -65,12 +69,47 @@ int Mapa::coordenadaANodo(int x, int y)
 }
 
 /**
+ * Carga el mapa de manera aleatoria
+ */
+void Mapa::cargaMapaAleatorio()
+{
+    for (int i = 0; i < SIZE; ++i)
+    {
+        for (int j = 0; j < SIZE; ++j)
+        {
+            if (i == 0 || i == SIZE - 1 || j == 0 || j == SIZE - 1)
+            {
+                matrizMapa[i][j] = new Indestructible();
+            }
+            else
+            {
+                matrizMapa[i][j] = new Suelo();
+            }
+        }
+    }
+    matrizMapa[1][1] = new Tanque();
+    matrizMapa[SIZE - 2][SIZE - 2] = new Tanque();
+}
+
+void Mapa::printMapa()
+{
+    for (int i = 0; i < SIZE; ++i)
+    {
+        for (int j = 0; j < SIZE; ++j)
+        {
+            std::cout << matrizMapa[i][j]->recurso();
+        }
+        std::cout << std::endl;
+    }
+}
+
+/**
  * Constructor de mapa
  */
 Mapa::Mapa()
 {
     inicializaMatrizAdyacencia();
+    cargaMapaAleatorio();
+    printMapa();
     std::cout << "Inicializando matriz adyacencia" << std::endl;
 }
-
-

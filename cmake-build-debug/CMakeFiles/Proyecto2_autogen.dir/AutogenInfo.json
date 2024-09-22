@@ -81,9 +81,33 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa.h",
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.h",
 			"MU",
-			"EWIEGA46WW/moc_Mapa.cpp",
+			"QYQU7DJTUG/moc_Mapa.cpp",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Indestructible.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Indestructible.cpp",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Objeto.cpp",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Suelo.cpp",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Tanque.cpp",
 			null
 		]
 	],
@@ -138,7 +162,31 @@
 	"SETTINGS_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa.cpp", "MU", null ],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Indestructible.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.cpp",
+			"MU",
+			null
+		],
 		[ "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

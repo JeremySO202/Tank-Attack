@@ -155,29 +155,125 @@ Proyecto2_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2_autogen.dir/build.make CMakeFiles/Proyecto2_autogen.dir/build
 .PHONY : Proyecto2_autogen/fast
 
-Mapa.o: Mapa.cpp.o
-.PHONY : Mapa.o
+Mapa/Mapa.o: Mapa/Mapa.cpp.o
+.PHONY : Mapa/Mapa.o
 
 # target to build an object file
-Mapa.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa.cpp.o
-.PHONY : Mapa.cpp.o
+Mapa/Mapa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o
+.PHONY : Mapa/Mapa.cpp.o
 
-Mapa.i: Mapa.cpp.i
-.PHONY : Mapa.i
+Mapa/Mapa.i: Mapa/Mapa.cpp.i
+.PHONY : Mapa/Mapa.i
 
 # target to preprocess a source file
-Mapa.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa.cpp.i
-.PHONY : Mapa.cpp.i
+Mapa/Mapa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.i
+.PHONY : Mapa/Mapa.cpp.i
 
-Mapa.s: Mapa.cpp.s
-.PHONY : Mapa.s
+Mapa/Mapa.s: Mapa/Mapa.cpp.s
+.PHONY : Mapa/Mapa.s
 
 # target to generate assembly for a file
-Mapa.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa.cpp.s
-.PHONY : Mapa.cpp.s
+Mapa/Mapa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.s
+.PHONY : Mapa/Mapa.cpp.s
+
+Objetos/Indestructible.o: Objetos/Indestructible.cpp.o
+.PHONY : Objetos/Indestructible.o
+
+# target to build an object file
+Objetos/Indestructible.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o
+.PHONY : Objetos/Indestructible.cpp.o
+
+Objetos/Indestructible.i: Objetos/Indestructible.cpp.i
+.PHONY : Objetos/Indestructible.i
+
+# target to preprocess a source file
+Objetos/Indestructible.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.i
+.PHONY : Objetos/Indestructible.cpp.i
+
+Objetos/Indestructible.s: Objetos/Indestructible.cpp.s
+.PHONY : Objetos/Indestructible.s
+
+# target to generate assembly for a file
+Objetos/Indestructible.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.s
+.PHONY : Objetos/Indestructible.cpp.s
+
+Objetos/Objeto.o: Objetos/Objeto.cpp.o
+.PHONY : Objetos/Objeto.o
+
+# target to build an object file
+Objetos/Objeto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o
+.PHONY : Objetos/Objeto.cpp.o
+
+Objetos/Objeto.i: Objetos/Objeto.cpp.i
+.PHONY : Objetos/Objeto.i
+
+# target to preprocess a source file
+Objetos/Objeto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.i
+.PHONY : Objetos/Objeto.cpp.i
+
+Objetos/Objeto.s: Objetos/Objeto.cpp.s
+.PHONY : Objetos/Objeto.s
+
+# target to generate assembly for a file
+Objetos/Objeto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.s
+.PHONY : Objetos/Objeto.cpp.s
+
+Objetos/Suelo.o: Objetos/Suelo.cpp.o
+.PHONY : Objetos/Suelo.o
+
+# target to build an object file
+Objetos/Suelo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o
+.PHONY : Objetos/Suelo.cpp.o
+
+Objetos/Suelo.i: Objetos/Suelo.cpp.i
+.PHONY : Objetos/Suelo.i
+
+# target to preprocess a source file
+Objetos/Suelo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.i
+.PHONY : Objetos/Suelo.cpp.i
+
+Objetos/Suelo.s: Objetos/Suelo.cpp.s
+.PHONY : Objetos/Suelo.s
+
+# target to generate assembly for a file
+Objetos/Suelo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.s
+.PHONY : Objetos/Suelo.cpp.s
+
+Objetos/Tanque.o: Objetos/Tanque.cpp.o
+.PHONY : Objetos/Tanque.o
+
+# target to build an object file
+Objetos/Tanque.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o
+.PHONY : Objetos/Tanque.cpp.o
+
+Objetos/Tanque.i: Objetos/Tanque.cpp.i
+.PHONY : Objetos/Tanque.i
+
+# target to preprocess a source file
+Objetos/Tanque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.i
+.PHONY : Objetos/Tanque.cpp.i
+
+Objetos/Tanque.s: Objetos/Tanque.cpp.s
+.PHONY : Objetos/Tanque.s
+
+# target to generate assembly for a file
+Objetos/Tanque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
+.PHONY : Objetos/Tanque.cpp.s
 
 Proyecto2_autogen/mocs_compilation.o: Proyecto2_autogen/mocs_compilation.cpp.o
 .PHONY : Proyecto2_autogen/mocs_compilation.o
@@ -238,9 +334,21 @@ help:
 	@echo "... Proyecto2_autogen"
 	@echo "... Proyecto2_autogen_timestamp_deps"
 	@echo "... Proyecto2"
-	@echo "... Mapa.o"
-	@echo "... Mapa.i"
-	@echo "... Mapa.s"
+	@echo "... Mapa/Mapa.o"
+	@echo "... Mapa/Mapa.i"
+	@echo "... Mapa/Mapa.s"
+	@echo "... Objetos/Indestructible.o"
+	@echo "... Objetos/Indestructible.i"
+	@echo "... Objetos/Indestructible.s"
+	@echo "... Objetos/Objeto.o"
+	@echo "... Objetos/Objeto.i"
+	@echo "... Objetos/Objeto.s"
+	@echo "... Objetos/Suelo.o"
+	@echo "... Objetos/Suelo.i"
+	@echo "... Objetos/Suelo.s"
+	@echo "... Objetos/Tanque.o"
+	@echo "... Objetos/Tanque.i"
+	@echo "... Objetos/Tanque.s"
 	@echo "... Proyecto2_autogen/mocs_compilation.o"
 	@echo "... Proyecto2_autogen/mocs_compilation.i"
 	@echo "... Proyecto2_autogen/mocs_compilation.s"

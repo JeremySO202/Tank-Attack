@@ -14,7 +14,15 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 add_executable(Proyecto2 main.cpp
-        Mapa.cpp)
+        Mapa/Mapa.cpp
+        Objetos/Objeto.cpp
+        Objetos/Objeto.h
+        Objetos/Suelo.cpp
+        Objetos/Suelo.h
+        Objetos/Indestructible.cpp
+        Objetos/Indestructible.h
+        Objetos/Tanque.cpp
+        Objetos/Tanque.h)
 target_link_libraries(Proyecto2
         Qt5::Core
         Qt5::Gui

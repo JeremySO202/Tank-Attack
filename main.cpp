@@ -2,7 +2,7 @@
 #include <QApplication>
 #include <QPushButton>
 
-#include "Mapa.h"
+#include "Mapa/Mapa.h"
 
 int main(int argc, char* argv[])
 {

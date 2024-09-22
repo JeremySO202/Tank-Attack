@@ -1,7 +1,15 @@
 Proyecto2_autogen/timestamp: \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/CMakeLists.txt \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \

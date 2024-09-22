@@ -336,4 +336,5 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.h
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Objeto.h
