@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /opt/cmake-3.29.8/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /opt/cmake-3.29.8/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
+CMAKE_SOURCE_DIR = /home/mvasquezr/DatosII/Tank-Attack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
+	/opt/cmake-3.29.8/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/cmake-3.29.8/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -275,6 +275,30 @@ Objetos/Tanque.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
 .PHONY : Objetos/Tanque.cpp.s
 
+Pathfinding/Dijkstra.o: Pathfinding/Dijkstra.cpp.o
+.PHONY : Pathfinding/Dijkstra.o
+
+# target to build an object file
+Pathfinding/Dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o
+.PHONY : Pathfinding/Dijkstra.cpp.o
+
+Pathfinding/Dijkstra.i: Pathfinding/Dijkstra.cpp.i
+.PHONY : Pathfinding/Dijkstra.i
+
+# target to preprocess a source file
+Pathfinding/Dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i
+.PHONY : Pathfinding/Dijkstra.cpp.i
+
+Pathfinding/Dijkstra.s: Pathfinding/Dijkstra.cpp.s
+.PHONY : Pathfinding/Dijkstra.s
+
+# target to generate assembly for a file
+Pathfinding/Dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s
+.PHONY : Pathfinding/Dijkstra.cpp.s
+
 Proyecto2_autogen/mocs_compilation.o: Proyecto2_autogen/mocs_compilation.cpp.o
 .PHONY : Proyecto2_autogen/mocs_compilation.o
 
@@ -349,6 +373,9 @@ help:
 	@echo "... Objetos/Tanque.o"
 	@echo "... Objetos/Tanque.i"
 	@echo "... Objetos/Tanque.s"
+	@echo "... Pathfinding/Dijkstra.o"
+	@echo "... Pathfinding/Dijkstra.i"
+	@echo "... Pathfinding/Dijkstra.s"
 	@echo "... Proyecto2_autogen/mocs_compilation.o"
 	@echo "... Proyecto2_autogen/mocs_compilation.i"
 	@echo "... Proyecto2_autogen/mocs_compilation.s"

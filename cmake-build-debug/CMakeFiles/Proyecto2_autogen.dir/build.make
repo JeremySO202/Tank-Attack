@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /opt/cmake-3.29.8/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /opt/cmake-3.29.8/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
+CMAKE_SOURCE_DIR = /home/mvasquezr/DatosII/Tank-Attack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
 
 # Utility rule file for Proyecto2_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/Proyecto2_autogen: Proyecto2_autogen/timestamp
 Proyecto2_autogen/timestamp: /usr/lib/qt5/bin/moc
 Proyecto2_autogen/timestamp: /usr/lib/qt5/bin/uic
 Proyecto2_autogen/timestamp: CMakeFiles/Proyecto2_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto2"
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake -E cmake_autogen "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenInfo.json" Debug
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake -E touch "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Proyecto2"
+	/opt/cmake-3.29.8/bin/cmake -E cmake_autogen /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenInfo.json Debug
+	/opt/cmake-3.29.8/bin/cmake -E touch /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/timestamp
 
 Proyecto2_autogen: CMakeFiles/Proyecto2_autogen
 Proyecto2_autogen: Proyecto2_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/Proyecto2_autogen.dir/clean:
 .PHONY : CMakeFiles/Proyecto2_autogen.dir/clean
 
 CMakeFiles/Proyecto2_autogen.dir/depend:
-	cd "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mvasquezr/DatosII/Tank-Attack /home/mvasquezr/DatosII/Tank-Attack /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Proyecto2_autogen.dir/depend
 

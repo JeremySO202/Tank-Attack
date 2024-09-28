@@ -6,125 +6,140 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.29.8/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.29.8/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.29.8/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeFindCodeBlocks.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/ProcessorCount.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeCInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Compiler/GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -161,7 +176,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -290,14 +305,14 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
+			"path" : "/opt/cmake-3.29.8/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug",
-		"source" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
+		"build" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug",
+		"source" : "/home/mvasquezr/DatosII/Tank-Attack"
 	},
 	"version" : 
 	{

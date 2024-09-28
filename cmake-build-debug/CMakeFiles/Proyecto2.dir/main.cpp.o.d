@@ -1,7 +1,6 @@
 CMakeFiles/Proyecto2.dir/main.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/mvasquezr/DatosII/Tank-Attack/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -336,5 +335,5 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Objeto.h
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h

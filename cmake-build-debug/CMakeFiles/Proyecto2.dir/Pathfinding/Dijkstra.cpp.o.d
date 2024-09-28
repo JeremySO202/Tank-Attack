@@ -1,10 +1,13 @@
-CMakeFiles/Proyecto2.dir/Mapa.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.cpp \
+CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -12,13 +15,22 @@ CMakeFiles/Proyecto2.dir/Mapa.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
  /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -83,7 +95,6 @@ CMakeFiles/Proyecto2.dir/Mapa.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \

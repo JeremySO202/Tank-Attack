@@ -1,8 +1,10 @@
 CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/Dijkstra.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/../Mapa/Mapa.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -157,7 +159,7 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Indestructible.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Suelo.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Tanque.h
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Indestructible.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Suelo.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Tanque.h

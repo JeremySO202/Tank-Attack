@@ -23,7 +23,7 @@ private:
 
 public:
     Mapa();
-
+    void probarDijkstra(int origen);  //Función para probar Dijkstra
 
 };
 

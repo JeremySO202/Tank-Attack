@@ -3,7 +3,7 @@
 //
 
 #include "Mapa.h"
-
+#include "../Pathfinding/Dijkstra.h"
 #include <iostream>
 #include <ostream>
 
@@ -11,6 +11,15 @@
 #include "../Objetos/Suelo.h"
 #include "../Objetos/Tanque.h"
 
+
+/**
+ * @brief Calcula la ruta más corta desde un nodo origen usando Dijkstra.
+ * @param origen Nodo de origen desde el cual se calculará la ruta.
+ */
+void Mapa::probarDijkstra(int origen) {
+    std::cout << "Probando Dijkstra desde el nodo origen " << origen << "..." << std::endl;
+    Dijkstra::shortestPath(matrizAdyacencia, GRAPHSIZE, origen);
+}
 /**
  * Inicia y calcula las distancias de la matriz de adyacencia
  */

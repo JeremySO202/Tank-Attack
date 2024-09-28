@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o"
   "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o.d"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/main.cpp.o"
