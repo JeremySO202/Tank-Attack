@@ -10,6 +10,10 @@ Proyecto2_autogen/timestamp: \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp \
+	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
 	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \

@@ -6,6 +6,7 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Ta
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -796,12 +797,29 @@ CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: /home/jeremy/Codigos/Tarea/Datos\
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: Proyecto2_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
 
 CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1307,6 +1325,10 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-At
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
@@ -1329,13 +1351,7 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-At
 
 /usr/include/c++/13/bits/stl_numeric.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -1381,6 +1397,8 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-At
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h:
+
 /usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
@@ -1397,19 +1415,9 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-At
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/c++/13/bits/iterator_concepts.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
 
 /usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
 
 /usr/include/ctype.h:
 
@@ -1447,12 +1455,6 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-At
 
 /usr/include/c++/13/exception:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/13/cwchar:
@@ -1483,7 +1485,41 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/istream.tcc:
 
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp:
+
 /usr/include/c++/13/debug/debug.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/13/utility:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h:
 
@@ -1504,12 +1540,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/13/utility:
 
 /usr/include/c++/13/iostream:
 
@@ -1535,17 +1565,21 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/codecvt.h:
 
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/ranges_cmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/c++/13/iomanip:
+
+/usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -1564,10 +1598,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/iterator:
 
 /usr/include/c++/13/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/c++/13/bits/hashtable.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
 
@@ -1634,16 +1664,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/unordered_map:
 
 /usr/include/c++/13/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/iomanip:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/c++/13/bits/ranges_cmp.h:
 
 /usr/include/c++/13/bits/allocator.h:
 
@@ -1725,7 +1745,11 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/cstddef:
 
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -1815,6 +1839,8 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp:
 
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h:
+
 /usr/include/c++/13/bits/chrono_io.h:
 
 /usr/include/c++/13/algorithm:
@@ -1854,6 +1880,8 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp:
 
 /usr/include/c++/13/format:
 
@@ -2028,5 +2056,3 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:

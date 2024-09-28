@@ -275,6 +275,54 @@ Objetos/Tanque.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
 .PHONY : Objetos/Tanque.cpp.s
 
+Pathfinding/Bfs.o: Pathfinding/Bfs.cpp.o
+.PHONY : Pathfinding/Bfs.o
+
+# target to build an object file
+Pathfinding/Bfs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o
+.PHONY : Pathfinding/Bfs.cpp.o
+
+Pathfinding/Bfs.i: Pathfinding/Bfs.cpp.i
+.PHONY : Pathfinding/Bfs.i
+
+# target to preprocess a source file
+Pathfinding/Bfs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i
+.PHONY : Pathfinding/Bfs.cpp.i
+
+Pathfinding/Bfs.s: Pathfinding/Bfs.cpp.s
+.PHONY : Pathfinding/Bfs.s
+
+# target to generate assembly for a file
+Pathfinding/Bfs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s
+.PHONY : Pathfinding/Bfs.cpp.s
+
+Pathfinding/Ruta.o: Pathfinding/Ruta.cpp.o
+.PHONY : Pathfinding/Ruta.o
+
+# target to build an object file
+Pathfinding/Ruta.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o
+.PHONY : Pathfinding/Ruta.cpp.o
+
+Pathfinding/Ruta.i: Pathfinding/Ruta.cpp.i
+.PHONY : Pathfinding/Ruta.i
+
+# target to preprocess a source file
+Pathfinding/Ruta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i
+.PHONY : Pathfinding/Ruta.cpp.i
+
+Pathfinding/Ruta.s: Pathfinding/Ruta.cpp.s
+.PHONY : Pathfinding/Ruta.s
+
+# target to generate assembly for a file
+Pathfinding/Ruta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s
+.PHONY : Pathfinding/Ruta.cpp.s
+
 Proyecto2_autogen/mocs_compilation.o: Proyecto2_autogen/mocs_compilation.cpp.o
 .PHONY : Proyecto2_autogen/mocs_compilation.o
 
@@ -349,6 +397,12 @@ help:
 	@echo "... Objetos/Tanque.o"
 	@echo "... Objetos/Tanque.i"
 	@echo "... Objetos/Tanque.s"
+	@echo "... Pathfinding/Bfs.o"
+	@echo "... Pathfinding/Bfs.i"
+	@echo "... Pathfinding/Bfs.s"
+	@echo "... Pathfinding/Ruta.o"
+	@echo "... Pathfinding/Ruta.i"
+	@echo "... Pathfinding/Ruta.s"
 	@echo "... Proyecto2_autogen/mocs_compilation.o"
 	@echo "... Proyecto2_autogen/mocs_compilation.i"
 	@echo "... Proyecto2_autogen/mocs_compilation.s"

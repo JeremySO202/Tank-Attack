@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.cpp" "CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o.d"
   "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.cpp" "CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o.d"
   "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.cpp" "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o.d"
+  "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Bfs.cpp" "CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o.d"
+  "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Ruta.cpp" "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d"
   "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp" "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o.d"
   "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/main.cpp" "CMakeFiles/Proyecto2.dir/main.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/main.cpp.o.d"
   )
