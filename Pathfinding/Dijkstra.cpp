@@ -31,43 +31,38 @@ int minDistance(int dist[], bool sptSet[], int numVertices) {
 Ruta* Dijkstra::shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int numVertices, int src, int destino, Mapa* mapa) {
     int dist[GRAPHSIZE];
     bool sptSet[GRAPHSIZE] = {false};
-    Nodo* prev[GRAPHSIZE] = {nullptr};
+    int prev[GRAPHSIZE];
 
-    // Inicializar todas las distancias como INFINITO y sptSet como falso
     for (int i = 0; i < numVertices; i++) {
         dist[i] = INF;
         sptSet[i] = false;
+        prev[i] = -1;
     }
 
-    // La distancia del nodo fuente a sí mismo siempre es 0
     dist[src] = 0;
 
     for (int count = 0; count < numVertices - 1; count++) {
         int u = minDistance(dist, sptSet, numVertices);
-
+        if (u == destino) break;
 
         sptSet[u] = true;
 
-
         for (int v = 0; v < numVertices; v++) {
-            if (!sptSet[v] && matrizAdyacencia[u][v] != 0 && dist[u] != INF &&
+            if (!sptSet[v] && matrizAdyacencia[u][v] && dist[u] != INF &&
                 dist[u] + matrizAdyacencia[u][v] < dist[v]) {
                 dist[v] = dist[u] + matrizAdyacencia[u][v];
-                prev[v] = new Nodo(u % SIZE, u / SIZE, prev[u]);
-            }
+                prev[v] = u;
+                }
         }
     }
-
 
     Ruta* ruta = new Ruta();
     int current = destino;
 
-    while (current != src && prev[current] != nullptr) {
+    while (current != -1) {
         ruta->add(new Nodo(current % SIZE, current / SIZE));
-        current = mapa->coordenadaANodo(prev[current]->x, prev[current]->y);
+        current = prev[current];
     }
-
-    ruta->add(new Nodo(src % SIZE, src / SIZE));
 
     std::cout << "Ruta más corta:" << std::endl;
     Nodo* temp = ruta->inicio;
@@ -77,3 +72,4 @@ Ruta* Dijkstra::shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int num
 
     return ruta;
 }
+
