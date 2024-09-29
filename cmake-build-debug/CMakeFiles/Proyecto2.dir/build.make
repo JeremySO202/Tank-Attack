@@ -209,6 +209,48 @@ CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s
 
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp
+
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp > CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i
+
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s
+
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp
+
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp > CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i
+
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s
+
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp
+
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp > CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i
+
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s
+
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o" \
@@ -220,7 +262,10 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
+"CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
@@ -235,12 +280,15 @@ Proyecto2: CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

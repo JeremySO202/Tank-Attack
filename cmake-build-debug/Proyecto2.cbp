@@ -120,6 +120,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>

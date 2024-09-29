@@ -155,6 +155,78 @@ Proyecto2_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2_autogen.dir/build.make CMakeFiles/Proyecto2_autogen.dir/build
 .PHONY : Proyecto2_autogen/fast
 
+Interfaz/GameWindow.o: Interfaz/GameWindow.cpp.o
+.PHONY : Interfaz/GameWindow.o
+
+# target to build an object file
+Interfaz/GameWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o
+.PHONY : Interfaz/GameWindow.cpp.o
+
+Interfaz/GameWindow.i: Interfaz/GameWindow.cpp.i
+.PHONY : Interfaz/GameWindow.i
+
+# target to preprocess a source file
+Interfaz/GameWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i
+.PHONY : Interfaz/GameWindow.cpp.i
+
+Interfaz/GameWindow.s: Interfaz/GameWindow.cpp.s
+.PHONY : Interfaz/GameWindow.s
+
+# target to generate assembly for a file
+Interfaz/GameWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s
+.PHONY : Interfaz/GameWindow.cpp.s
+
+Interfaz/MainWindow.o: Interfaz/MainWindow.cpp.o
+.PHONY : Interfaz/MainWindow.o
+
+# target to build an object file
+Interfaz/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o
+.PHONY : Interfaz/MainWindow.cpp.o
+
+Interfaz/MainWindow.i: Interfaz/MainWindow.cpp.i
+.PHONY : Interfaz/MainWindow.i
+
+# target to preprocess a source file
+Interfaz/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i
+.PHONY : Interfaz/MainWindow.cpp.i
+
+Interfaz/MainWindow.s: Interfaz/MainWindow.cpp.s
+.PHONY : Interfaz/MainWindow.s
+
+# target to generate assembly for a file
+Interfaz/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s
+.PHONY : Interfaz/MainWindow.cpp.s
+
+Interfaz/MapWidget.o: Interfaz/MapWidget.cpp.o
+.PHONY : Interfaz/MapWidget.o
+
+# target to build an object file
+Interfaz/MapWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o
+.PHONY : Interfaz/MapWidget.cpp.o
+
+Interfaz/MapWidget.i: Interfaz/MapWidget.cpp.i
+.PHONY : Interfaz/MapWidget.i
+
+# target to preprocess a source file
+Interfaz/MapWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i
+.PHONY : Interfaz/MapWidget.cpp.i
+
+Interfaz/MapWidget.s: Interfaz/MapWidget.cpp.s
+.PHONY : Interfaz/MapWidget.s
+
+# target to generate assembly for a file
+Interfaz/MapWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s
+.PHONY : Interfaz/MapWidget.cpp.s
+
 Mapa/Mapa.o: Mapa/Mapa.cpp.o
 .PHONY : Mapa/Mapa.o
 
@@ -406,6 +478,15 @@ help:
 	@echo "... Proyecto2_autogen"
 	@echo "... Proyecto2_autogen_timestamp_deps"
 	@echo "... Proyecto2"
+	@echo "... Interfaz/GameWindow.o"
+	@echo "... Interfaz/GameWindow.i"
+	@echo "... Interfaz/GameWindow.s"
+	@echo "... Interfaz/MainWindow.o"
+	@echo "... Interfaz/MainWindow.i"
+	@echo "... Interfaz/MainWindow.s"
+	@echo "... Interfaz/MapWidget.o"
+	@echo "... Interfaz/MapWidget.i"
+	@echo "... Interfaz/MapWidget.s"
 	@echo "... Mapa/Mapa.o"
 	@echo "... Mapa/Mapa.i"
 	@echo "... Mapa/Mapa.s"

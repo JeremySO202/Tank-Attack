@@ -84,6 +84,24 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.h",
+			"MU",
+			"GV5D4H6SKQ/moc_GameWindow.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h",
+			"MU",
+			"GV5D4H6SKQ/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h",
+			"MU",
+			"GV5D4H6SKQ/moc_MapWidget.cpp",
+			null
+		],
+		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h",
 			"MU",
 			"QYQU7DJTUG/moc_Mapa.cpp",
@@ -183,6 +201,21 @@
 	"SETTINGS_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp",
+			"MU",
+			null
+		],
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp", "MU", null ],
 		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp",

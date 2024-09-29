@@ -342,4 +342,13 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h

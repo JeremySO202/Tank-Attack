@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29)
+cmake_minimum_required(VERSION 3.28.1)
 project(Proyecto2)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -27,7 +27,15 @@ add_executable(Proyecto2 main.cpp
         Pathfinding/Bfs.h
         Pathfinding/Ruta.cpp
         Pathfinding/Ruta.h
-        Pathfinding/Dijkstra.cpp)
+        Pathfinding/Dijkstra.cpp
+        Interfaz/MainWindow.cpp
+        Interfaz/MainWindow.h
+        Interfaz/MainWindow.h
+        Interfaz/GameWindow.cpp
+        Interfaz/GameWindow.h
+        Interfaz/MapWidget.cpp
+        Interfaz/MapWidget.h
+        Interfaz/MapWidget.cpp)
 target_link_libraries(Proyecto2
         Qt5::Core
         Qt5::Gui

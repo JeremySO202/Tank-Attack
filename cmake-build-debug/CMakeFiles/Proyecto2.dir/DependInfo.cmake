@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp" "CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o.d"
+  "/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp" "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d"
+  "/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp" "CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp" "CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp" "CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp" "CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o.d"
