@@ -3,8 +3,10 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/Ruta.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/Dijkstra.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/../Pathfinding/Ruta.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

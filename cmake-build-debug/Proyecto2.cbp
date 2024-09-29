@@ -150,10 +150,22 @@
 		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h">
 			<Option target="Proyecto2"/>
 		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h">
+			<Option target="Proyecto2"/>
+		</Unit>
 		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp">
 			<Option target="Proyecto2"/>
 		</Unit>
 		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp">
+			<Option target="Proyecto2"/>
+		</Unit>
+		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h">
 			<Option target="Proyecto2"/>
 		</Unit>
 		<Unit filename="/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp">

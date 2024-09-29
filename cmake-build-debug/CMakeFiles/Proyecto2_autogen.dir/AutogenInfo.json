@@ -114,9 +114,21 @@
 			null
 		],
 		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Bfs.cpp",
+			null
+		],
+		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h",
 			"MU",
 			"3ZRGYGTA7I/moc_Dijkstra.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Ruta.cpp",
 			null
 		]
 	],
@@ -180,8 +192,14 @@
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp", "MU", null ],
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp", "MU", null ],
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp", "MU", null ],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp", "MU", null ],
 		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp",
 			"MU",
 			null
 		],

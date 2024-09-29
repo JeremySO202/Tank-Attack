@@ -7,7 +7,9 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Ma
   /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
   /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
   /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -798,9 +800,20 @@ CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: /home/mvasquezr/DatosII/Tank-Atta
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp \
+  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
   /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1005,12 +1018,22 @@ CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: /home/mvasquezr/DatosII/Tan
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: Proyecto2_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
 
 CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cpp \
   /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1512,6 +1535,12 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -1604,6 +1633,8 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -1644,6 +1675,12 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
+/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
+
+/usr/include/c++/13/istream:
+
 /usr/include/c++/13/iostream:
 
 /usr/include/libintl.h:
@@ -1667,10 +1704,6 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 /usr/include/c++/13/bits/ranges_uninitialized.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/iterator:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1710,10 +1743,6 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 
 /usr/include/c++/13/string_view:
 
-/usr/include/c++/13/clocale:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
 /usr/include/c++/13/bits/parse_numbers.h:
@@ -1729,14 +1758,6 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
 /usr/include/string.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/assert.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
-
-/usr/include/c++/13/list:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -1808,7 +1829,13 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h:
 
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/move.h:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h:
 
 /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h:
 
@@ -1844,6 +1871,22 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/c++/13/iterator:
+
+/usr/include/assert.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
+
+/usr/include/c++/13/list:
+
 /usr/include/c++/13/bits/codecvt.h:
 
 /usr/include/c++/13/ext/concurrence.h:
@@ -1861,6 +1904,12 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -1880,10 +1929,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/move.h:
-
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
@@ -1897,6 +1942,8 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/predefined_ops.h:
 
 /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp:
+
+/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h:
 
 /usr/include/c++/13/bits/basic_string.h:
 
@@ -1924,10 +1971,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
-/usr/include/c++/13/istream:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
-
 /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp:
 
 /usr/include/c++/13/bits/stl_construct.h:
@@ -1943,12 +1986,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
 
 /usr/include/c++/13/charconv:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/c++/13/cstdio:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
 
@@ -2091,10 +2128,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/typeinfo:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
 /usr/include/c++/13/bits/quoted_string.h:
 
@@ -2241,5 +2274,3 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:

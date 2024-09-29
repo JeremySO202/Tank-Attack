@@ -5,6 +5,7 @@
 #ifndef MAPA_H
 #define MAPA_H
 #include "../Objetos/Objeto.h"
+#include "../Pathfinding/Ruta.h"
 
 const int SIZE = 10;
 const int GRAPHSIZE = SIZE * SIZE;
@@ -14,16 +15,20 @@ const int DESP_DIAGO = 14;
 
 class Mapa {
 private:
-    int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE] = {0};
-    Objeto *matrizMapa[SIZE][SIZE];
+    bool isValid(int x, int y);
     void inicializaMatrizAdyacencia();
-    int coordenadaANodo(int x, int y);
     void cargaMapaAleatorio();
     void printMapa();
 
 public:
+    int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE] = {0};
+    Objeto *matrizMapa[SIZE][SIZE];
+
     Mapa();
-    void probarDijkstra(int origen);  //Función para probar Dijkstra
+
+    void moverTanque(Ruta *ruta);
+    int coordenadaANodo(int x, int y);
+
 
 };
 

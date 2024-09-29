@@ -4,6 +4,8 @@ CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h \

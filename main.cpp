@@ -3,23 +3,23 @@
 #include <QPushButton>
 
 #include "Mapa/Mapa.h"
-
+#include "Pathfinding/Bfs.h"
+#include "Pathfinding/Dijkstra.h"
 
 int main(int argc, char* argv[])
 {
     QApplication a(argc, argv);
     QPushButton button("Pruebas!", nullptr);
-
-    // Crear el objeto del mapa e inicializar
+    Bfs bfs;
     Mapa *mapa = new Mapa();
-
-    // Probar el algoritmo de Dijkstra desde un nodo de origen (por ejemplo, nodo 0)
-    mapa->probarDijkstra(0);
-    mapa->probarDijkstra(5);
-    mapa->probarDijkstra(10);
-
+    Ruta *ruta = new Ruta();
+    //ruta = bfs.obtenerRuta(1,1,8,8,mapa);
+    //mapa->moverTanque(ruta);
     button.resize(200, 100);
     button.show();
-    return QApplication::exec();
-}
+    std::cout << "Dijkstra" << std::endl;
+    Dijkstra dijkstra;
+    Ruta* rutaDijkstra = dijkstra.shortestPath(mapa->matrizAdyacencia, GRAPHSIZE, mapa->coordenadaANodo(1, 1), mapa->coordenadaANodo(8, 8), mapa);
+    mapa->moverTanque(rutaDijkstra);
 
+}

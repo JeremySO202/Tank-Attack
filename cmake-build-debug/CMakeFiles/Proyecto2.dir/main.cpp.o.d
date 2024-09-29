@@ -336,4 +336,10 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h

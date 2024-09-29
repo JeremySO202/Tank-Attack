@@ -1,4 +1,4 @@
-/opt/cmake-3.29.8/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/mvasquezr/DatosII/Tank-Attack -B /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
+/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/mvasquezr/DatosII/Tank-Attack -B /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -8,6 +8,8 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.29 or higher is required.  You are running version 3.28.1
+
+
+-- Configuring incomplete, errors occurred!

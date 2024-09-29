@@ -23,9 +23,11 @@ add_executable(Proyecto2 main.cpp
         Objetos/Indestructible.h
         Objetos/Tanque.cpp
         Objetos/Tanque.h
-        main.cpp
-        Pathfinding/Dijkstra.cpp
-        Pathfinding/Dijkstra.h)
+        Pathfinding/Bfs.cpp
+        Pathfinding/Bfs.h
+        Pathfinding/Ruta.cpp
+        Pathfinding/Ruta.h
+        Pathfinding/Dijkstra.cpp)
 target_link_libraries(Proyecto2
         Qt5::Core
         Qt5::Gui

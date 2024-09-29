@@ -4,6 +4,7 @@
 #ifndef DIJKSTRA_H
 #define DIJKSTRA_H
 #include "../Mapa/Mapa.h"
+#include "../Pathfinding/Ruta.h"
 
 /**
  * @class Dijkstra
@@ -12,12 +13,13 @@
 class Dijkstra {
 public:
     /**
-     * @brief Calcula la ruta más corta desde un nodo fuente.
+     * @brief Calcula la ruta más corta desde un nodo fuente hasta un destino.
      * @param matrizAdyacencia Matriz de adyacencia del grafo.
      * @param numVertices Número de nodos del grafo.
      * @param src Nodo de origen.
+     * @param destino Nodo de destino.
      */
-    static void shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int numVertices, int src);
+    static Ruta* shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int numVertices, int src, int destino, Mapa* mapa);
 };
 
 #endif // DIJKSTRA_H

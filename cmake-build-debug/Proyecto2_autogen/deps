@@ -10,8 +10,12 @@ Proyecto2_autogen/timestamp: \
 	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
 	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp \
 	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
 	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.8/CMakeCCompiler.cmake \
 	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.8/CMakeCXXCompiler.cmake \
 	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.8/CMakeSystem.cmake \

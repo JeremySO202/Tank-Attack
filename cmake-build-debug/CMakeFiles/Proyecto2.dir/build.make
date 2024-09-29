@@ -167,10 +167,38 @@ CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp -o CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
 
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp > CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp > CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s
+
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i: cmake_force
@@ -190,6 +218,8 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
 
 # External object files for target Proyecto2
@@ -202,13 +232,15 @@ Proyecto2: CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
