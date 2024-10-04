@@ -1,5 +1,5 @@
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2.dir
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen_timestamp_deps.dir
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir
+/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2.dir
+/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen_timestamp_deps.dir
+/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir

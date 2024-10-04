@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -327,14 +327,14 @@ CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Suelo.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Tanque.h
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Suelo.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Tanque.h

@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_GameWindow.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_GameWindow.cpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -196,7 +196,7 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/GameWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/GameWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -327,17 +327,17 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MapWidget.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MapWidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MainWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/GameWindow.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MapWidget.cpp \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MapWidget.h
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/GameWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MapWidget.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MapWidget.h

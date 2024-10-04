@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -333,13 +333,13 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/GameWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \

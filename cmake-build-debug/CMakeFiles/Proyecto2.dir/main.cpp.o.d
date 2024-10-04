@@ -1,6 +1,7 @@
 CMakeFiles/Proyecto2.dir/main.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -335,20 +336,21 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
- /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/GameWindow.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.h

@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 43,
 				"parent" : 0
 			}
 		]
@@ -69,7 +69,7 @@
 				{
 					"backtrace" : 0,
 					"isSystem" : true,
-					"path" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include"
+					"path" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -120,7 +120,9 @@
 				15,
 				16,
 				18,
-				20
+				20,
+				22,
+				24
 			]
 		}
 	],
@@ -190,7 +192,9 @@
 				15,
 				16,
 				18,
-				20
+				20,
+				22,
+				24
 			]
 		},
 		{
@@ -205,21 +209,23 @@
 				14,
 				17,
 				19,
-				21
+				21,
+				23,
+				25
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				22
+				26
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				23
+				27
 			]
 		}
 	],
@@ -347,6 +353,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "Interfaz/MapWidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Pathfinding/Astar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Pathfinding/Astar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Pathfinding/ListaPrioridad.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Pathfinding/ListaPrioridad.h",
 			"sourceGroupIndex" : 1
 		},
 		{

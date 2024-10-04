@@ -35,7 +35,11 @@ add_executable(Proyecto2 main.cpp
         Interfaz/GameWindow.h
         Interfaz/MapWidget.cpp
         Interfaz/MapWidget.h
-        Interfaz/MapWidget.cpp)
+        Interfaz/MapWidget.cpp
+        Pathfinding/Astar.cpp
+        Pathfinding/Astar.h
+        Pathfinding/ListaPrioridad.cpp
+        Pathfinding/ListaPrioridad.h)
 target_link_libraries(Proyecto2
         Qt5::Core
         Qt5::Gui

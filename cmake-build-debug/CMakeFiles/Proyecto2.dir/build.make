@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/cmake-3.29.8/bin/cmake
+CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/cmake-3.29.8/bin/cmake -E rm -f
+RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mvasquezr/DatosII/Tank-Attack
+CMAKE_SOURCE_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto2.dir/depend.make
@@ -72,184 +72,212 @@ include CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: Proyecto2_autogen/mocs_compilation.cpp
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp"
 
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp > CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp" > CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp -o CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp" -o CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Proyecto2.dir/main.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cpp
+CMakeFiles/Proyecto2.dir/main.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp
 CMakeFiles/Proyecto2.dir/main.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/main.cpp.o -MF CMakeFiles/Proyecto2.dir/main.cpp.o.d -o CMakeFiles/Proyecto2.dir/main.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/main.cpp.o -MF CMakeFiles/Proyecto2.dir/main.cpp.o.d -o CMakeFiles/Proyecto2.dir/main.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/main.cpp"
 
 CMakeFiles/Proyecto2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/main.cpp > CMakeFiles/Proyecto2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/main.cpp" > CMakeFiles/Proyecto2.dir/main.cpp.i
 
 CMakeFiles/Proyecto2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/main.cpp -o CMakeFiles/Proyecto2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/main.cpp" -o CMakeFiles/Proyecto2.dir/main.cpp.s
 
 CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp
+CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp
 CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o -MF CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o.d -o CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o -MF CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o.d -o CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.cpp"
 
 CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp > CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.cpp" > CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.i
 
 CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp -o CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.cpp" -o CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.s
 
 CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp
+CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp
 CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.cpp"
 
 CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp > CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.cpp" > CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.i
 
 CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp -o CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.cpp" -o CMakeFiles/Proyecto2.dir/Objetos/Objeto.cpp.s
 
 CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp
+CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp
 CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.cpp"
 
 CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp > CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.cpp" > CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.i
 
 CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp -o CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Suelo.cpp" -o CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.s
 
 CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp
+CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.cpp
 CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Indestructible.cpp"
 
 CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp > CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Indestructible.cpp" > CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.i
 
 CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp -o CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Indestructible.cpp" -o CMakeFiles/Proyecto2.dir/Objetos/Indestructible.cpp.s
 
 CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp
+CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp
 CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o -MF CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o.d -o CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.cpp"
 
 CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp > CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.cpp" > CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.i
 
 CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp -o CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Tanque.cpp" -o CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp
 CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Bfs.cpp"
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp > CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Bfs.cpp" > CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.i
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Bfs.cpp" -o CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.s
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp
 CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Ruta.cpp"
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp > CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Ruta.cpp" > CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.i
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Ruta.cpp" -o CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.s
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.cpp
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Dijkstra.cpp"
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp > CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Dijkstra.cpp" > CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.i
 
 CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Dijkstra.cpp" -o CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s
 
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MainWindow.cpp"
 
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp > CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MainWindow.cpp" > CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.i
 
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MainWindow.cpp" -o CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.s
 
 CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/GameWindow.cpp
 CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/GameWindow.cpp"
 
 CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp > CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/GameWindow.cpp" > CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.i
 
 CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/GameWindow.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/GameWindow.cpp" -o CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.s
 
 CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp
+CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.cpp
 CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -MF CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o.d -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MapWidget.cpp"
 
 CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp > CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MapWidget.cpp" > CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.i
 
 CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.cpp -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MapWidget.cpp" -o CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.s
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Astar.cpp"
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Astar.cpp" > CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.i
+
+CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Astar.cpp" -o CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.s
+
+CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp
+CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o -c "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp"
+
+CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp" > CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.i
+
+CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp" -o CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.s
 
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
@@ -265,7 +293,9 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o"
+"CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o" \
+"CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
@@ -283,12 +313,14 @@ Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/GameWindow.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/MapWidget.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o
+Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/build.make
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -300,6 +332,6 @@ CMakeFiles/Proyecto2.dir/clean:
 .PHONY : CMakeFiles/Proyecto2.dir/clean
 
 CMakeFiles/Proyecto2.dir/depend:
-	cd /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mvasquezr/DatosII/Tank-Attack /home/mvasquezr/DatosII/Tank-Attack /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Proyecto2.dir/depend
 

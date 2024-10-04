@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/cmake-3.29.8/bin/cmake
+CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /opt/cmake-3.29.8/bin/cmake -E rm -f
+RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mvasquezr/DatosII/Tank-Attack
+CMAKE_SOURCE_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/cmake-3.29.8/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+	/snap/clion/296/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/opt/cmake-3.29.8/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/296/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -347,6 +347,30 @@ Objetos/Tanque.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Objetos/Tanque.cpp.s
 .PHONY : Objetos/Tanque.cpp.s
 
+Pathfinding/Astar.o: Pathfinding/Astar.cpp.o
+.PHONY : Pathfinding/Astar.o
+
+# target to build an object file
+Pathfinding/Astar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o
+.PHONY : Pathfinding/Astar.cpp.o
+
+Pathfinding/Astar.i: Pathfinding/Astar.cpp.i
+.PHONY : Pathfinding/Astar.i
+
+# target to preprocess a source file
+Pathfinding/Astar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.i
+.PHONY : Pathfinding/Astar.cpp.i
+
+Pathfinding/Astar.s: Pathfinding/Astar.cpp.s
+.PHONY : Pathfinding/Astar.s
+
+# target to generate assembly for a file
+Pathfinding/Astar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.s
+.PHONY : Pathfinding/Astar.cpp.s
+
 Pathfinding/Bfs.o: Pathfinding/Bfs.cpp.o
 .PHONY : Pathfinding/Bfs.o
 
@@ -394,6 +418,30 @@ Pathfinding/Dijkstra.s: Pathfinding/Dijkstra.cpp.s
 Pathfinding/Dijkstra.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.s
 .PHONY : Pathfinding/Dijkstra.cpp.s
+
+Pathfinding/ListaPrioridad.o: Pathfinding/ListaPrioridad.cpp.o
+.PHONY : Pathfinding/ListaPrioridad.o
+
+# target to build an object file
+Pathfinding/ListaPrioridad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o
+.PHONY : Pathfinding/ListaPrioridad.cpp.o
+
+Pathfinding/ListaPrioridad.i: Pathfinding/ListaPrioridad.cpp.i
+.PHONY : Pathfinding/ListaPrioridad.i
+
+# target to preprocess a source file
+Pathfinding/ListaPrioridad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.i
+.PHONY : Pathfinding/ListaPrioridad.cpp.i
+
+Pathfinding/ListaPrioridad.s: Pathfinding/ListaPrioridad.cpp.s
+.PHONY : Pathfinding/ListaPrioridad.s
+
+# target to generate assembly for a file
+Pathfinding/ListaPrioridad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.s
+.PHONY : Pathfinding/ListaPrioridad.cpp.s
 
 Pathfinding/Ruta.o: Pathfinding/Ruta.cpp.o
 .PHONY : Pathfinding/Ruta.o
@@ -502,12 +550,18 @@ help:
 	@echo "... Objetos/Tanque.o"
 	@echo "... Objetos/Tanque.i"
 	@echo "... Objetos/Tanque.s"
+	@echo "... Pathfinding/Astar.o"
+	@echo "... Pathfinding/Astar.i"
+	@echo "... Pathfinding/Astar.s"
 	@echo "... Pathfinding/Bfs.o"
 	@echo "... Pathfinding/Bfs.i"
 	@echo "... Pathfinding/Bfs.s"
 	@echo "... Pathfinding/Dijkstra.o"
 	@echo "... Pathfinding/Dijkstra.i"
 	@echo "... Pathfinding/Dijkstra.s"
+	@echo "... Pathfinding/ListaPrioridad.o"
+	@echo "... Pathfinding/ListaPrioridad.i"
+	@echo "... Pathfinding/ListaPrioridad.s"
 	@echo "... Pathfinding/Ruta.o"
 	@echo "... Pathfinding/Ruta.i"
 	@echo "... Pathfinding/Ruta.s"
