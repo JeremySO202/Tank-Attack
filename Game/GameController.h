@@ -4,10 +4,10 @@
 #ifndef GAMECONTROLLER_H
 #define GAMECONTROLLER_H
 
+#include <QObject>
 #include "../Mapa/Mapa.h"
 #include "../Game/Jugador.h"
 #include "../Interfaz/MainWindow.h"
-#include <QObject>
 
 class GameController : public QObject {
     Q_OBJECT
@@ -21,9 +21,10 @@ public:
     GameController(QObject* parent = nullptr);
     void iniciarJuego();
 
-    private slots:
-        void onTanqueSeleccionado(int x, int y);
+private slots:
+    void onTanqueSeleccionado(int x, int y);
     void onDestinoSeleccionado(int x, int y);
 };
 
 #endif // GAMECONTROLLER_H
+

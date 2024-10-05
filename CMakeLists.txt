@@ -30,7 +30,6 @@ add_executable(Proyecto2 main.cpp
         Pathfinding/Dijkstra.cpp
         Interfaz/MainWindow.cpp
         Interfaz/MainWindow.h
-        Interfaz/MainWindow.h
         Pathfinding/Astar.cpp
         Pathfinding/Astar.h
         Pathfinding/ListaPrioridad.cpp
@@ -43,6 +42,8 @@ add_executable(Proyecto2 main.cpp
         Game/GameController.h
         Interfaz/StartWindow.cpp
         Interfaz/StartWindow.h
+        Pathfinding/RandomMovement.cpp
+        Pathfinding/RandomMovement.h
 )
 target_link_libraries(Proyecto2
         Qt5::Core

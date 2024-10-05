@@ -491,6 +491,30 @@ Pathfinding/ListaPrioridad.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.s
 .PHONY : Pathfinding/ListaPrioridad.cpp.s
 
+Pathfinding/RandomMovement.o: Pathfinding/RandomMovement.cpp.o
+.PHONY : Pathfinding/RandomMovement.o
+
+# target to build an object file
+Pathfinding/RandomMovement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o
+.PHONY : Pathfinding/RandomMovement.cpp.o
+
+Pathfinding/RandomMovement.i: Pathfinding/RandomMovement.cpp.i
+.PHONY : Pathfinding/RandomMovement.i
+
+# target to preprocess a source file
+Pathfinding/RandomMovement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.i
+.PHONY : Pathfinding/RandomMovement.cpp.i
+
+Pathfinding/RandomMovement.s: Pathfinding/RandomMovement.cpp.s
+.PHONY : Pathfinding/RandomMovement.s
+
+# target to generate assembly for a file
+Pathfinding/RandomMovement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.s
+.PHONY : Pathfinding/RandomMovement.cpp.s
+
 Pathfinding/Ruta.o: Pathfinding/Ruta.cpp.o
 .PHONY : Pathfinding/Ruta.o
 
@@ -616,6 +640,9 @@ help:
 	@echo "... Pathfinding/ListaPrioridad.o"
 	@echo "... Pathfinding/ListaPrioridad.i"
 	@echo "... Pathfinding/ListaPrioridad.s"
+	@echo "... Pathfinding/RandomMovement.o"
+	@echo "... Pathfinding/RandomMovement.i"
+	@echo "... Pathfinding/RandomMovement.s"
 	@echo "... Pathfinding/Ruta.o"
 	@echo "... Pathfinding/Ruta.i"
 	@echo "... Pathfinding/Ruta.s"

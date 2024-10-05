@@ -197,17 +197,10 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/GameController.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/Jugador.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Tanque.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/MainWindow.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
  /usr/include/assert.h /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
@@ -233,14 +226,7 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
@@ -302,6 +288,22 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/format \
  /usr/include/c++/13/charconv /usr/include/c++/13/optional \
  /usr/include/c++/13/span /usr/include/c++/13/variant \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/MainWindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
@@ -349,8 +351,6 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/../Game/Jugador.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/MainWindow.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_StartWindow.cpp \

@@ -164,6 +164,12 @@
 			null
 		],
 		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h",
+			"MU",
+			"3ZRGYGTA7I/moc_RandomMovement.cpp",
+			null
+		],
+		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h",
 			"MU",
 			"3ZRGYGTA7I/moc_Ruta.cpp",
@@ -264,6 +270,11 @@
 		],
 		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp",
 			"MU",
 			null
 		],

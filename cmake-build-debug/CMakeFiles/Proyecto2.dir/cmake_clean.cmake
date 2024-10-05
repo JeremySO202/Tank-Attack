@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o"
   "CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o.d"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o"

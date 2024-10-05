@@ -28,6 +28,8 @@ Proyecto2_autogen/timestamp: \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
 	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
 	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake \
