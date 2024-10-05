@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
+			"value" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/296/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/296/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/296/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
+			"value" : "/home/mvasquezr/DatosII/Tank-Attack"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29"
+			"value" : "/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1155,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug"
+			"value" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug"
 		},
 		{
 			"name" : "Proyecto2_IS_TOP_LEVEL",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack"
+			"value" : "/home/mvasquezr/DatosII/Tank-Attack"
 		},
 		{
 			"name" : "Qt5Core_DIR",

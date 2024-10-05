@@ -12,7 +12,7 @@ void Indestructible::interaccion()
     std::cout << "Interaccion con indestructible" << std::endl;
 }
 
-char* Indestructible::recurso()
+const char* Indestructible::recurso()
 {
     return "#";
 }

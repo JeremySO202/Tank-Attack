@@ -10,7 +10,7 @@
 class Indestructible: public Objeto {
 public:
     void interaccion() override;
-    char* recurso() override;
+    const char* recurso() override;
 };
 
 

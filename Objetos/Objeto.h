@@ -10,7 +10,7 @@ class Objeto
 {
 public:
     virtual void interaccion() = 0; //Interaccion del objeto
-    virtual char* recurso() = 0; //Ruta imagen
+    virtual const char* recurso() = 0; //Ruta imagen
 
 };
 

@@ -72,56 +72,22 @@ int Mapa::coordenadaANodo(int x, int y)
 /**
  * Carga el mapa de manera aleatoria
  */
-void Mapa::cargaMapaAleatorio()
-{
-    for (int i = 0; i < SIZE; ++i)
-    {
-        for (int j = 0; j < SIZE; ++j)
-        {
-            if (i == 0 || i == SIZE - 1 || j == 0 || j == SIZE - 1)
-            {
-                matrizMapa[i][j] = new Indestructible();
-            }
-            else
-            {
-                matrizMapa[i][j] = new Suelo();
+void Mapa::cargaMapaAleatorio() {
+    for (int i = 0; i < SIZE; ++i) {
+        for (int j = 0; j < SIZE; ++j) {
+            if (i == 0 || i == SIZE - 1 || j == 0 || j == SIZE - 1) {
+                matrizMapa[i][j] = new Indestructible(); // Bordes indestructibles
+            } else {
+                // Generar suelo o obstáculos de manera aleatoria
+                if (std::rand() % 4 == 0) { // Aproximadamente 25% de probabilidad de ser un obstáculo
+                    matrizMapa[i][j] = new Indestructible();
+                } else {
+                    matrizMapa[i][j] = new Suelo();
+                }
             }
         }
     }
-    // Línea 1
-    matrizMapa[1][1] = new Tanque();            // T
-    matrizMapa[1][2] = new Indestructible();    // S
-
-    // Línea 2
-    matrizMapa[2][2] = new Indestructible();    // S
-    matrizMapa[2][4] = new Indestructible();    // S
-
-    // Línea 3
-
-    matrizMapa[3][4] = new Indestructible();    // S
-
-    // Línea 4
-    matrizMapa[4][1] = new Indestructible();    // S
-    matrizMapa[4][2] = new Indestructible();    // S
-    matrizMapa[4][3] = new Indestructible();    // S
-    matrizMapa[4][4] = new Indestructible();    // S
-
-    // Línea 6
-    matrizMapa[6][3] = new Indestructible();    // #
-    matrizMapa[6][4] = new Indestructible();    // #
-    matrizMapa[6][5] = new Indestructible();    // #
-    matrizMapa[6][6] = new Indestructible();    // #
-    matrizMapa[6][7] = new Indestructible();    // #
-
-    matrizMapa[7][3] = new Indestructible();    // #
-    matrizMapa[7][4] = new Indestructible();    // #
-    matrizMapa[7][5] = new Indestructible();    // #
-    matrizMapa[7][6] = new Indestructible();    // #
-    matrizMapa[7][7] = new Indestructible();    // #
-
-    matrizMapa[8][1] = new Indestructible();    // #
 }
-
 void Mapa::printMapa()
 {
     for (int i = 0; i < SIZE; ++i)

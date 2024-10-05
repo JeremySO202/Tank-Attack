@@ -1,8 +1,8 @@
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MapWidget.cpp: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/moc_MapWidget.cpp: /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MapWidget.h \
+  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

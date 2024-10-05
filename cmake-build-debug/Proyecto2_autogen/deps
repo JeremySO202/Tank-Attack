@@ -1,55 +1,59 @@
 Proyecto2_autogen/timestamp: \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/CMakeLists.txt \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/GameWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/GameWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MapWidget.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/CMakeLists.txt \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/main.cpp \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
 	/usr/include/assert.h \
@@ -289,6 +293,7 @@ Proyecto2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -301,7 +306,10 @@ Proyecto2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -312,7 +320,9 @@ Proyecto2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
@@ -342,6 +352,7 @@ Proyecto2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
@@ -351,28 +362,47 @@ Proyecto2_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
@@ -424,4 +454,4 @@ Proyecto2_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake

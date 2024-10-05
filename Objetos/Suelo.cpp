@@ -12,7 +12,7 @@ void Suelo::interaccion()
     std::cout << "Interaccion con suelo" << std::endl;
 }
 
-char* Suelo::recurso()
+const char* Suelo::recurso()
 {
     return "S";
 }

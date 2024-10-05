@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 43,
+				"line" : 47,
 				"parent" : 0
 			}
 		]
@@ -69,7 +69,7 @@
 				{
 					"backtrace" : 0,
 					"isSystem" : true,
-					"path" : "/home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include"
+					"path" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -122,7 +122,9 @@
 				18,
 				20,
 				22,
-				24
+				24,
+				26,
+				28
 			]
 		}
 	],
@@ -194,7 +196,9 @@
 				18,
 				20,
 				22,
-				24
+				24,
+				26,
+				28
 			]
 		},
 		{
@@ -211,21 +215,23 @@
 				19,
 				21,
 				23,
-				25
+				25,
+				27,
+				29
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				26
+				30
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				27
+				31
 			]
 		}
 	],
@@ -336,28 +342,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Interfaz/GameWindow.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Interfaz/GameWindow.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Interfaz/MapWidget.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Interfaz/MapWidget.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "Pathfinding/Astar.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -375,6 +359,50 @@
 		{
 			"backtrace" : 1,
 			"path" : "Pathfinding/ListaPrioridad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Game/Jugador.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Game/Jugador.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Game/GameManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Game/GameManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Game/GameController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Game/GameController.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Interfaz/StartWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Interfaz/StartWindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

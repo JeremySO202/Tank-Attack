@@ -15,10 +15,8 @@ const int DESP_DIAGO = 14;
 
 class Mapa {
 private:
-    bool isValid(int x, int y);
     void inicializaMatrizAdyacencia();
     void cargaMapaAleatorio();
-    void printMapa();
 
 public:
     int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE] = {0};
@@ -28,6 +26,8 @@ public:
 
     void moverTanque(Ruta *ruta);
     int coordenadaANodo(int x, int y);
+    void printMapa();
+    bool isValid(int x, int y);
 
 
 };
