@@ -48,12 +48,16 @@ Ruta* Dijkstra::shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int num
         sptSet[u] = true;
 
         for (int v = 0; v < numVertices; v++) {
+            int newX = v % SIZE;
+            int newY = v / SIZE;
+
             if (!sptSet[v] && matrizAdyacencia[u][v] && dist[u] != INF &&
-                dist[u] + matrizAdyacencia[u][v] < dist[v]) {
+                dist[u] + matrizAdyacencia[u][v] < dist[v] && mapa->isValid(newX, newY)) {
                 dist[v] = dist[u] + matrizAdyacencia[u][v];
                 prev[v] = u;
                 }
         }
+
     }
 
     Ruta* ruta = new Ruta();

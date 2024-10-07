@@ -21,11 +21,15 @@
  * @param y eje y
  * @return true si es navegable, false si no
  */
-bool Mapa::isValid(int x, int y)
-{
-    if (x >= 0 && y >= 0 && x<SIZE && y<SIZE)
-        return typeid(*matrizMapa[y][x]) != typeid(Indestructible);
-    return x >= 0 && y >= 0 && x<SIZE && y<SIZE;
+bool Mapa::isValid(int x, int y) {
+    if (x >= 0 && y >= 0 && x < SIZE && y < SIZE) {
+        // No se puede pasar por encima de un objeto Indestructible ni de un tanque
+        if (typeid(*matrizMapa[y][x]) == typeid(Indestructible) || typeid(*matrizMapa[y][x]) == typeid(Tanque)) {
+            return false;
+        }
+        return true;
+    }
+    return false;
 }
 
 /**

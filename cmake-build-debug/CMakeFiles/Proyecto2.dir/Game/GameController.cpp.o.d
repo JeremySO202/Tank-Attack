@@ -353,7 +353,8 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Bfs.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Ruta.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/../Mapa/Mapa.h \

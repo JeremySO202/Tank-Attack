@@ -362,7 +362,8 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \

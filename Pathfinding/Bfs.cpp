@@ -26,47 +26,40 @@ int coordToIndex(int x, int y)
  * @param mapa mapa a navegar
  * @return ruta que se debe seguir
  */
-Ruta* Bfs::obtenerRuta(int xi, int yi, int xd, int yd, Mapa* mapa)
-{
-
+Ruta* Bfs::obtenerRuta(int xi, int yi, int xd, int yd, Mapa* mapa) {
     Ruta* rutaPorVisitar = new Ruta();
     Ruta* ruta = new Ruta();
 
     bool visited[SIZE][SIZE] = {false};
 
-    rutaPorVisitar->queue(new Nodo (xi,yi));
+    rutaPorVisitar->queue(new Nodo(xi, yi));
     visited[yi][xi] = true;
-    bool band = true;
-    while (rutaPorVisitar->inicio!=nullptr && band)
-    {
+    bool encontrado = false;
+
+    while (rutaPorVisitar->inicio != nullptr && !encontrado) {
         Nodo* node = rutaPorVisitar->dequeue();
 
-        int index = coordToIndex(node->x,node->y);
-        for (int i = 0; i < GRAPHSIZE; i++)
-        {
-            if (mapa->matrizAdyacencia[index][i] != 0 && !visited[int(i/SIZE)][i%SIZE])
-            {
-                visited[int(i/SIZE)][i%SIZE] = true;
-                rutaPorVisitar->queue(new Nodo (i%SIZE,int(i/SIZE), node));
-                if (i%SIZE == xd && int(i/SIZE) == yd)
-                {
-                    band = false;
+        int index = coordToIndex(node->x, node->y);
+        for (int i = 0; i < GRAPHSIZE; i++) {
+            int newX = i % SIZE;
+            int newY = i / SIZE;
+
+            if (mapa->matrizAdyacencia[index][i] != 0 && !visited[newY][newX] && mapa->isValid(newX, newY)) {
+                visited[newY][newX] = true;
+                rutaPorVisitar->queue(new Nodo(newX, newY, node));
+                if (newX == xd && newY == yd) {
+                    encontrado = true;
                     break;
                 }
-
             }
         }
     }
+
     Nodo* node = rutaPorVisitar->final;
-    while (node != nullptr)
-    {
+    while (node != nullptr) {
         ruta->add(node);
         node = node->padre;
     }
 
     return ruta;
-
-
-
 }
-

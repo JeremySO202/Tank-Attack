@@ -375,4 +375,5 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/../Game/Jugador.h
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/GameManager.h
