@@ -341,6 +341,8 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
@@ -368,6 +370,12 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Suelo.h \

@@ -350,6 +350,8 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Mapa/Mapa.h \

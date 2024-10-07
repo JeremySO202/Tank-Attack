@@ -1,12 +1,12 @@
 //
 // Created by mvasquezr on 9/28/24.
 //
-
 #include "MainWindow.h"
 #include <QGraphicsRectItem>
 #include <QBrush>
 #include <QMouseEvent>
 #include <QTimer>
+#include <QVBoxLayout>
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
 #include "../Objetos/Tanque.h"
@@ -22,9 +22,29 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     : QMainWindow(parent), mapa(mapa), gameManager(gameManager), enMovimiento(false) {
     scene = new QGraphicsScene(this);
     view = new QGraphicsView(scene, this);
-    setCentralWidget(view);
+    informacionLabel = new QLabel(this); // Inicializamos el label para mostrar información del juego
+
+    QVBoxLayout* layout = new QVBoxLayout();
+    layout->addWidget(view);
+    layout->addWidget(informacionLabel);
+
+    QWidget* centralWidget = new QWidget(this);
+    centralWidget->setLayout(layout);
+    setCentralWidget(centralWidget);
 
     inicializarMapa(mapa);
+}
+
+/**
+ * Actualiza la información del turno del jugador y el tiempo restante.
+ * @param jugadorActual Puntero al jugador actual.
+ * @param tiempoRestante Tiempo restante en segundos.
+ */
+void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante) {
+    QString info = QString("Turno: jugador %1\nTiempo restante: %2 segundos")
+                   .arg(jugadorActual->getId())
+                   .arg(tiempoRestante);
+    informacionLabel->setText(info);
 }
 
 /**

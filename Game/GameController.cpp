@@ -57,9 +57,29 @@ void GameController::iniciarJuego() {
     mainWindow->raise();
     mainWindow->activateWindow();
 
+    // Inicializa el tiempo restante (en segundos)
+    int tiempoRestante = 300; // 5 minutos
+
+    // Iniciar un temporizador que cuenta hacia atrás
+    QTimer* timer = new QTimer(this);
+    connect(timer, &QTimer::timeout, [=]() mutable {
+        if (tiempoRestante > 0) {
+            tiempoRestante--;
+            mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante);
+        } else {
+            timer->stop();
+            std::cout << "El tiempo se ha agotado. Fin del juego." << std::endl;
+        }
+    });
+    timer->start(1000); // Cuenta regresiva cada segundo
+
+    // Actualizar la interfaz al inicio del juego
+    mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante);
+
     std::cout << "Mapa inicial con tanques añadidos:" << std::endl;
     mapa->printMapa();
 }
+
 
 /**
  * @brief Slot que maneja la selección de un tanque.

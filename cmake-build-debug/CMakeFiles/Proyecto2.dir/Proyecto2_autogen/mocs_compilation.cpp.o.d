@@ -347,6 +347,8 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/../Mapa/Mapa.h \
