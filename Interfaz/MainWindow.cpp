@@ -33,6 +33,7 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     setCentralWidget(centralWidget);
 
     inicializarMapa(mapa);
+    resize(570, 570);
 }
 
 /**

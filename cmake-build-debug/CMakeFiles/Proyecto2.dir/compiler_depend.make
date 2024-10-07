@@ -406,11 +406,13 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/mvasquezr/DatosII/Tank
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
@@ -1593,12 +1595,19 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: /home/mvasquezr/DatosII/Tank
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
@@ -2020,6 +2029,7 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: /home/mvasquezr/DatosII/Tan
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
@@ -2032,6 +2042,7 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: /home/mvasquezr/DatosII/Tan
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
@@ -3669,6 +3680,7 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: Proyecto2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
@@ -3681,6 +3693,7 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: Proyecto2_aut
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
@@ -4106,6 +4119,7 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
@@ -4118,6 +4132,7 @@ CMakeFiles/Proyecto2.dir/main.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/main.cp
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
@@ -4180,8 +4195,6 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 
 /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
@@ -4197,6 +4210,8 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h:
 
@@ -4247,6 +4262,8 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
@@ -4799,6 +4816,8 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h:
 
 /usr/include/c++/13/type_traits:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
