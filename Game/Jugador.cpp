@@ -1,6 +1,7 @@
 //
 // Created by mvasquezr on 10/4/24.
 //
+
 #include "Jugador.h"
 #include <iostream>
 

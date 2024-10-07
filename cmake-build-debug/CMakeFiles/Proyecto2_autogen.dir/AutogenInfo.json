@@ -98,6 +98,12 @@
 			null
 		],
 		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h",
+			"MU",
+			"P4N2LYW5XE/moc_TurnoManager.cpp",
+			null
+		],
+		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h",
 			"MU",
 			"GV5D4H6SKQ/moc_MainWindow.cpp",
@@ -238,6 +244,11 @@
 			null
 		],
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp", "MU", null ],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp",
 			"MU",

@@ -1,6 +1,7 @@
 //
 // Created by mvasquezr on 9/28/24.
 //
+
 #include "MainWindow.h"
 #include <QGraphicsRectItem>
 #include <QBrush>
@@ -68,40 +69,51 @@ void MainWindow::inicializarMapa(Mapa* mapa) {
  * @param x Coordenada x.
  * @param y Coordenada y.
  */
-void MainWindow::actualizarTanque(int x, int y) {
-    // Eliminar el tanque gráfico anterior si existe
-    if (tanqueItem != nullptr) {
-        scene->removeItem(tanqueItem);
-        delete tanqueItem;
-        tanqueItem = nullptr;
-    }
-
+void MainWindow::actualizarTanque(int nuevoX, int nuevoY) {
     int cellSize = 50;
 
-    // Obtener el tanque de la matriz del mapa
-    Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[y][x]);
-    if (tanque != nullptr) {
-        QColor color = Qt::blue;  // Valor por defecto
+    // Actualizar toda la cuadrícula de nuevo para reflejar el estado actual
+    scene->clear(); // Limpiamos toda la escena para asegurarnos de redibujarla correctamente
 
-        // Seleccionar el color del tanque según su tipo
-        switch (tanque->getColor()) {
-            case Tanque::Color::ROJO:
-                color = Qt::red;
-                break;
-            case Tanque::Color::AZUL:
-                color = Qt::blue;
-                break;
-            case Tanque::Color::AMARILLO:
-                color = Qt::yellow;
-                break;
-            case Tanque::Color::CELESTE:
-                color = Qt::cyan;
-                break;
+    for (int i = 0; i < SIZE; ++i) {
+        for (int j = 0; j < SIZE; ++j) {
+            QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
+
+            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible)) {
+                cell->setBrush(Qt::darkGray);
+            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo)) {
+                cell->setBrush(Qt::green);
+            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque)) {
+                Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[i][j]);
+                if (tanque != nullptr) {
+                    QColor color = Qt::blue;  // Color por defecto
+
+                    // Selecciona el color del tanque según su tipo
+                    switch (tanque->getColor()) {
+                        case Tanque::Color::ROJO:
+                            color = Qt::red;
+                        break;
+                        case Tanque::Color::AZUL:
+                            color = Qt::blue;
+                        break;
+                        case Tanque::Color::AMARILLO:
+                            color = Qt::yellow;
+                        break;
+                        case Tanque::Color::CELESTE:
+                            color = Qt::cyan;
+                        break;
+                    }
+
+                    // Dibujar el tanque con el color correspondiente
+                    cell->setBrush(color);
+                }
+            }
         }
-
-        // Crear el tanque gráfico con el color correspondiente
-        tanqueItem = scene->addRect(x * cellSize, y * cellSize, cellSize, cellSize, QPen(Qt::black), QBrush(color));
     }
+
+    // Forzar la actualización de la vista para reflejar los cambios
+    view->update();
+    scene->update();
 }
 
 /**

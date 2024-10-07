@@ -1,6 +1,7 @@
 //
 // Created by mvasquezr on 10/4/24.
 //
+
 #ifndef GAMECONTROLLER_H
 #define GAMECONTROLLER_H
 
@@ -8,6 +9,7 @@
 #include "../Mapa/Mapa.h"
 #include "../Game/Jugador.h"
 #include "../Interfaz/MainWindow.h"
+#include "../Game/GameManager.h"
 
 class GameController : public QObject {
     Q_OBJECT
@@ -15,16 +17,15 @@ class GameController : public QObject {
 private:
     Mapa* mapa;
     MainWindow* mainWindow;
-    Jugador* jugador;
+    GameManager* gameManager;
 
 public:
     GameController(QObject* parent = nullptr);
     void iniciarJuego();
 
-private slots:
-    void onTanqueSeleccionado(int x, int y);
+    private slots:
+        void onTanqueSeleccionado(int x, int y);
     void onDestinoSeleccionado(int x, int y);
 };
 
 #endif // GAMECONTROLLER_H
-

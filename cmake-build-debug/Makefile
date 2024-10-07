@@ -227,6 +227,30 @@ Game/Jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.s
 .PHONY : Game/Jugador.cpp.s
 
+Game/TurnoManager.o: Game/TurnoManager.cpp.o
+.PHONY : Game/TurnoManager.o
+
+# target to build an object file
+Game/TurnoManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o
+.PHONY : Game/TurnoManager.cpp.o
+
+Game/TurnoManager.i: Game/TurnoManager.cpp.i
+.PHONY : Game/TurnoManager.i
+
+# target to preprocess a source file
+Game/TurnoManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.i
+.PHONY : Game/TurnoManager.cpp.i
+
+Game/TurnoManager.s: Game/TurnoManager.cpp.s
+.PHONY : Game/TurnoManager.s
+
+# target to generate assembly for a file
+Game/TurnoManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.s
+.PHONY : Game/TurnoManager.cpp.s
+
 Interfaz/MainWindow.o: Interfaz/MainWindow.cpp.o
 .PHONY : Interfaz/MainWindow.o
 
@@ -607,6 +631,9 @@ help:
 	@echo "... Game/Jugador.o"
 	@echo "... Game/Jugador.i"
 	@echo "... Game/Jugador.s"
+	@echo "... Game/TurnoManager.o"
+	@echo "... Game/TurnoManager.i"
+	@echo "... Game/TurnoManager.s"
 	@echo "... Interfaz/MainWindow.o"
 	@echo "... Interfaz/MainWindow.i"
 	@echo "... Interfaz/MainWindow.s"

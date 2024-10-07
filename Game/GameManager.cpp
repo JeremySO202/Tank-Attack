@@ -1,14 +1,16 @@
 //
 // Created by mvasquezr on 10/4/24.
 //
+
 #include "GameManager.h"
+#include <iostream>
 
 /**
  * Constructor de GameManager.
  * Inicializa con el mapa proporcionado.
  * @param mapa Puntero al objeto Mapa.
  */
-GameManager::GameManager(Mapa* mapa) : mapa(mapa), numJugadores(0) {}
+GameManager::GameManager(Mapa* mapa) : mapa(mapa), numJugadores(0), jugadorActual(0) {}
 
 /**
  * Agrega un jugador al juego.
@@ -21,31 +23,35 @@ void GameManager::agregarJugador(Jugador* jugador) {
 }
 
 /**
- * Selecciona un tanque del jugador.
- * @param jugadorId ID del jugador.
- * @param x Coordenada x del tanque.
- * @param y Coordenada y del tanque.
+ * Obtiene el jugador actual.
+ * @return Puntero al jugador actual.
  */
-void GameManager::seleccionarTanque(int jugadorId, int x, int y) {
-    for (int i = 0; i < numJugadores; ++i) {
-        if (jugadores[i]->getId() == jugadorId) {
-            jugadores[i]->seleccionarTanque(x, y);
-            break;
-        }
-    }
+Jugador* GameManager::getJugadorActual() {
+    return jugadores[jugadorActual];
 }
 
 /**
- * Establece un destino para un tanque.
- * @param jugadorId ID del jugador.
+ * Cambia el turno al siguiente jugador.
+ */
+void GameManager::cambiarTurno() {
+    jugadorActual = (jugadorActual + 1) % numJugadores;
+    std::cout << "Es el turno del jugador: " << (jugadorActual + 1) << std::endl;
+}
+
+/**
+ * Selecciona un tanque del jugador actual.
+ * @param x Coordenada x del tanque.
+ * @param y Coordenada y del tanque.
+ */
+void GameManager::seleccionarTanque(int x, int y) {
+    jugadores[jugadorActual]->seleccionarTanque(x, y);
+}
+
+/**
+ * Establece un destino para un tanque del jugador actual.
  * @param x Coordenada x del destino.
  * @param y Coordenada y del destino.
  */
-void GameManager::setDestino(int jugadorId, int x, int y) {
-    for (int i = 0; i < numJugadores; ++i) {
-        if (jugadores[i]->getId() == jugadorId) {
-            jugadores[i]->setDestino(x, y);
-            break;
-        }
-    }
+void GameManager::setDestino(int x, int y) {
+    jugadores[jugadorActual]->setDestino(x, y);
 }

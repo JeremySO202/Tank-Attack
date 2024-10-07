@@ -1,6 +1,7 @@
 //
 // Created by mvasquezr on 9/28/24.
 //
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -16,7 +17,7 @@ class MainWindow : public QMainWindow {
 private:
     QGraphicsScene* scene;
     QGraphicsView* view;
-    QGraphicsRectItem* tanqueItem = nullptr;  // Inicializar en nullptr para evitar problemas al eliminar un objeto no válido
+    QGraphicsRectItem* tanqueItem = nullptr;
     GameManager* gameManager;
 
 public:
