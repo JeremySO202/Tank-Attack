@@ -23,30 +23,36 @@ RandomMovement::RandomMovement() {
 Ruta* RandomMovement::obtenerMovimientoAleatorio(int xi, int yi, Mapa* mapa, int radio) {
     Ruta* ruta = new Ruta();
 
-    // Generar un movimiento aleatorio en el radio definido
-    for (int intento = 0; intento < 2; intento++) {
-        int newX = xi + (std::rand() % (2 * radio + 1)) - radio;
-        int newY = yi + (std::rand() % (2 * radio + 1)) - radio;
+    // Coordenadas actuales del tanque
+    int currentX = xi;
+    int currentY = yi;
+
+    // Generar una secuencia de movimientos dentro del radio definido
+    for (int i = 0; i < radio; ++i) {
+        // Seleccionar una dirección aleatoria de las 8 posibles
+        int stepX = (std::rand() % 3) - 1;
+        int stepY = (std::rand() % 3) - 1;
+
+        // Asegurarse de que haya un movimiento
+        while (stepX == 0 && stepY == 0) {
+            stepX = (std::rand() % 3) - 1;
+            stepY = (std::rand() % 3) - 1;
+        }
+
+        // Calcular la nueva posición
+        int newX = currentX + stepX;
+        int newY = currentY + stepY;
 
         // Verificar que las coordenadas estén dentro de los límites del mapa y sean navegables
         if (mapa->isValid(newX, newY)) {
             ruta->add(new Nodo(newX, newY));
-            return ruta;
+            currentX = newX;
+            currentY = newY;
+        } else {
+            i--;
         }
-    }
-
-    // Si no encontró una posición válida, se mueve hacia la línea de vista hasta donde sea posible
-    int stepX = (xi < radio) ? 1 : (xi > radio) ? -1 : 0;
-    int stepY = (yi < radio) ? 1 : (yi > radio) ? -1 : 0;
-
-    // Avanzar en la dirección hasta donde sea posible
-    int currentX = xi + stepX;
-    int currentY = yi + stepY;
-    while (mapa->isValid(currentX, currentY)) {
-        ruta->add(new Nodo(currentX, currentY));
-        currentX += stepX;
-        currentY += stepY;
     }
 
     return ruta;
 }
+

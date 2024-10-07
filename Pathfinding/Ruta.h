@@ -31,7 +31,6 @@ public:
     void queue(Nodo *nodo);
     void add(Nodo *nodo);
     Nodo* dequeue();
-
 };
 
 

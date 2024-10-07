@@ -48,32 +48,34 @@ Ruta* Dijkstra::shortestPath(int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE], int num
         sptSet[u] = true;
 
         for (int v = 0; v < numVertices; v++) {
+            int currentX = u % SIZE;
+            int currentY = u / SIZE;
             int newX = v % SIZE;
             int newY = v / SIZE;
 
-            if (!sptSet[v] && matrizAdyacencia[u][v] && dist[u] != INF &&
+            // Calcular la distancia Manhattan para permitir solo movimientos a celdas adyacentes
+            int deltaX = std::abs(newX - currentX);
+            int deltaY = std::abs(newY - currentY);
+
+            // Solo permitir movimientos a celdas adyacentes (arriba, abajo, izquierda, derecha, diagonales)
+            if ((deltaX <= 1 && deltaY <= 1) &&
+                !sptSet[v] && matrizAdyacencia[u][v] && dist[u] != INF &&
                 dist[u] + matrizAdyacencia[u][v] < dist[v] && mapa->isValid(newX, newY)) {
+
                 dist[v] = dist[u] + matrizAdyacencia[u][v];
                 prev[v] = u;
                 }
         }
-
     }
 
     Ruta* ruta = new Ruta();
     int current = destino;
 
+    // Construir la ruta desde el destino al origen
     while (current != -1) {
         ruta->add(new Nodo(current % SIZE, current / SIZE));
         current = prev[current];
     }
 
-    std::cout << "Ruta más corta:" << std::endl;
-    Nodo* temp = ruta->inicio;
-    while (temp != nullptr) {
-        temp = temp->next;
-    }
-
     return ruta;
 }
-
