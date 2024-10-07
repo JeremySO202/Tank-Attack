@@ -7,6 +7,8 @@
 #include <iostream>
 #include <ostream>
 #include <typeinfo>
+#include <cstdlib>
+#include <ctime>
 
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
@@ -73,12 +75,15 @@ int Mapa::coordenadaANodo(int x, int y)
  * Carga el mapa de manera aleatoria
  */
 void Mapa::cargaMapaAleatorio() {
+    // Inicializar la semilla del generador de números aleatorios para obtener resultados distintos en cada ejecución
+    std::srand(static_cast<unsigned int>(std::time(0)));
+
     for (int i = 0; i < SIZE; ++i) {
         for (int j = 0; j < SIZE; ++j) {
             if (i == 0 || i == SIZE - 1 || j == 0 || j == SIZE - 1) {
                 matrizMapa[i][j] = new Indestructible(); // Bordes indestructibles
             } else {
-                // Generar suelo o obstáculos de manera aleatoria
+                // Generar suelo u obstáculos de manera aleatoria
                 if (std::rand() % 4 == 0) { // Aproximadamente 25% de probabilidad de ser un obstáculo
                     matrizMapa[i][j] = new Indestructible();
                 } else {
