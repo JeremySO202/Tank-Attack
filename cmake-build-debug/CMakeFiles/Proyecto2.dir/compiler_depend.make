@@ -1586,6 +1586,7 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Ma
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/ctime \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \

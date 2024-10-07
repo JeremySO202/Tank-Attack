@@ -160,7 +160,7 @@ CMakeFiles/Proyecto2.dir/Mapa/Mapa.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/ctime \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Indestructible.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/Mapa/../Objetos/Suelo.h \
