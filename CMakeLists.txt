@@ -46,6 +46,8 @@ add_executable(Proyecto2 main.cpp
         Pathfinding/RandomMovement.h
         Game/TurnoManager.cpp
         Game/TurnoManager.h
+        Pathfinding/LineaVista.cpp
+        Pathfinding/LineaVista.h
 )
 target_link_libraries(Proyecto2
         Qt5::Core

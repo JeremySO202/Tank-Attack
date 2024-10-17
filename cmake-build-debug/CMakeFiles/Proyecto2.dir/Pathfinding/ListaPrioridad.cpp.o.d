@@ -1,4 +1,4 @@
 CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h

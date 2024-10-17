@@ -1,8 +1,8 @@
-/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/moc_TurnoManager.cpp: /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h \
-  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-  /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
-  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
-  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/moc_TurnoManager.cpp: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
   /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \

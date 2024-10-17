@@ -1,12 +1,12 @@
 CMakeFiles/Proyecto2.dir/Pathfinding/Astar.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -22,6 +22,7 @@ public:
     void agregarTanque(Tanque* tanque);
     void seleccionarTanque(int x, int y);
     void setDestino(int x, int y);
+    void setDisparo(int x, int y);
     Tanque* getTanqueSeleccionado() const;
     int getId() const;
     void limpiarSeleccion();

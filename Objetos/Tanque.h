@@ -14,6 +14,7 @@ private:
     int x;
     int y;
     Color color;
+    int vida = 100;
 
 public:
     Tanque(int x, int y, Color color);
@@ -24,9 +25,12 @@ public:
     int getX() const;
     int getY() const;
     Color getColor() const;
+    int getVida() const;
+
 
     void setX(int x);
     void setY(int y);
+    void setVida(int vida);
 };
 
 #endif // TANQUE_H

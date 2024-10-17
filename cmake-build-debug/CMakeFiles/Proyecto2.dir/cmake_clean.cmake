@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Pathfinding/Bfs.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Dijkstra.cpp.o.d"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o"
   "CMakeFiles/Proyecto2.dir/Pathfinding/ListaPrioridad.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o"

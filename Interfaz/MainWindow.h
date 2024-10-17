@@ -11,7 +11,8 @@
 #include "../Mapa/Mapa.h"
 #include "../Game/GameManager.h"
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
     Q_OBJECT
 
 private:
@@ -26,6 +27,7 @@ public:
 
     explicit MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent = nullptr);
     void inicializarMapa(Mapa* mapa);
+    void pintarBala(int x, int y);
     void actualizarTanque(int x, int y);
     void forzarActualizacion();
     void actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante);
@@ -33,9 +35,10 @@ public:
 protected:
     void mousePressEvent(QMouseEvent* event) override;
 
-    signals:
+signals:
     void tanqueSeleccionadoSignal(int x, int y);
     void destinoSeleccionadoSignal(int x, int y);
+    void disparoSeleccionadoSignal(int x, int y);
     void movimientoFinalizado();
 };
 

@@ -1,11 +1,11 @@
 CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Pathfinding/Ruta.h \
  /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

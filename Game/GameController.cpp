@@ -12,11 +12,14 @@
 #include <cstdlib>
 #include <ctime>
 
+#include "../Pathfinding/LineaVista.h"
+
 /**
  * @brief Constructor de GameController que inicializa los elementos del juego, como el mapa y los jugadores.
  * @param parent Puntero al objeto padre.
  */
-GameController::GameController(QObject* parent) : QObject(parent) {
+GameController::GameController(QObject* parent) : QObject(parent)
+{
     mapa = new Mapa();
     gameManager = new GameManager(mapa);
 
@@ -47,12 +50,14 @@ GameController::GameController(QObject* parent) : QObject(parent) {
 
     connect(mainWindow, &MainWindow::tanqueSeleccionadoSignal, this, &GameController::onTanqueSeleccionado);
     connect(mainWindow, &MainWindow::destinoSeleccionadoSignal, this, &GameController::onDestinoSeleccionado);
+    connect(mainWindow, &MainWindow::disparoSeleccionadoSignal, this, &GameController::onDisparoSeleccionado);
 }
 
 /**
  * @brief Muestra la ventana principal y actualiza el estado inicial del mapa.
  */
-void GameController::iniciarJuego() {
+void GameController::iniciarJuego()
+{
     mainWindow->show();
     mainWindow->raise();
     mainWindow->activateWindow();
@@ -62,11 +67,15 @@ void GameController::iniciarJuego() {
 
     // Iniciar un temporizador que cuenta hacia atrás
     QTimer* timer = new QTimer(this);
-    connect(timer, &QTimer::timeout, [=]() mutable {
-        if (tiempoRestante > 0) {
+    connect(timer, &QTimer::timeout, [=]() mutable
+    {
+        if (tiempoRestante > 0)
+        {
             tiempoRestante--;
             mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante);
-        } else {
+        }
+        else
+        {
             timer->stop();
             std::cout << "El tiempo se ha agotado. Fin del juego." << std::endl;
         }
@@ -86,8 +95,10 @@ void GameController::iniciarJuego() {
  * @param x Coordenada en el eje x del tanque seleccionado.
  * @param y Coordenada en el eje y del tanque seleccionado.
  */
-void GameController::onTanqueSeleccionado(int x, int y) {
-    if (!mainWindow->enMovimiento) {
+void GameController::onTanqueSeleccionado(int x, int y)
+{
+    if (!mainWindow->enMovimiento)
+    {
         gameManager->seleccionarTanque(x, y);
     }
 }
@@ -97,42 +108,63 @@ void GameController::onTanqueSeleccionado(int x, int y) {
  * @param x Coordenada en el eje x del destino.
  * @param y Coordenada en el eje y del destino.
  */
-void GameController::onDestinoSeleccionado(int x, int y) {
-    if (!mainWindow->enMovimiento) {
+void GameController::onDestinoSeleccionado(int x, int y)
+{
+    if (!mainWindow->enMovimiento)
+    {
         Jugador* jugadorActual = gameManager->getJugadorActual();
 
-        if (jugadorActual->getTanqueSeleccionado() != nullptr) {
+        if (jugadorActual->getTanqueSeleccionado() != nullptr)
+        {
             jugadorActual->setDestino(x, y);
 
             Tanque* tanqueSeleccionado = jugadorActual->getTanqueSeleccionado();
-            if (tanqueSeleccionado) {
+            if (tanqueSeleccionado)
+            {
                 Ruta* ruta = nullptr;
 
                 int randomValue = std::rand() % 100;
 
                 // Selección de algoritmo según el color del tanque
-                if (tanqueSeleccionado->getColor() == Tanque::Color::AZUL || tanqueSeleccionado->getColor() == Tanque::Color::CELESTE) {
-                    if (randomValue < 50) {
+                if (tanqueSeleccionado->getColor() == Tanque::Color::AZUL || tanqueSeleccionado->getColor() ==
+                    Tanque::Color::CELESTE)
+                {
+                    if (randomValue < 50)
+                    {
                         std::cout << "Utilizando BFS." << std::endl;
                         Bfs bfs;
                         ruta = bfs.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
-                    } else {
-                        std::cout << "Utilizando movimiento aleatorio." << std::endl;
-                        RandomMovement randomMovement;
-                        ruta = randomMovement.obtenerMovimientoAleatorio(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), mapa);
                     }
-                } else if (tanqueSeleccionado->getColor() == Tanque::Color::ROJO || tanqueSeleccionado->getColor() == Tanque::Color::AMARILLO) {
-                    if (randomValue < 80) {
-                        std::cout << "Utilizando Dijkstra." << std::endl;
-                        ruta = Dijkstra::shortestPath(mapa->matrizAdyacencia, GRAPHSIZE, mapa->coordenadaANodo(tanqueSeleccionado->getX(), tanqueSeleccionado->getY()), mapa->coordenadaANodo(x, y), mapa);
-                    } else {
+                    else
+                    {
                         std::cout << "Utilizando movimiento aleatorio." << std::endl;
                         RandomMovement randomMovement;
-                        ruta = randomMovement.obtenerMovimientoAleatorio(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), mapa);
+                        ruta = randomMovement.obtenerMovimientoAleatorio(
+                            tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), mapa);
+                    }
+                }
+                else if (tanqueSeleccionado->getColor() == Tanque::Color::ROJO || tanqueSeleccionado->getColor() ==
+                    Tanque::Color::AMARILLO)
+                {
+                    if (randomValue < 80)
+                    {
+                        std::cout << "Utilizando Dijkstra." << std::endl;
+                        ruta = Dijkstra::shortestPath(mapa->matrizAdyacencia, GRAPHSIZE,
+                                                      mapa->coordenadaANodo(
+                                                          tanqueSeleccionado->getX(), tanqueSeleccionado->getY()),
+                                                      mapa->coordenadaANodo(x, y), mapa);
+                    }
+                    else
+                    {
+                        std::cout << "Utilizando movimiento aleatorio." << std::endl;
+                        RandomMovement randomMovement;
+                        ruta = randomMovement.obtenerMovimientoAleatorio(
+                            tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), mapa);
                     }
                 }
 
-                if (ruta == nullptr || ruta->inicio == nullptr) {
+                if (ruta == nullptr || ruta->inicio == nullptr)
+                {
                     std::cout << "No se pudo encontrar una ruta válida al destino." << std::endl;
                     return;
                 }
@@ -142,13 +174,17 @@ void GameController::onDestinoSeleccionado(int x, int y) {
                 mainWindow->enMovimiento = true;
 
                 QTimer* timer = new QTimer(this);
-                connect(timer, &QTimer::timeout, [=]() mutable {
-                    if (nodoActual != nullptr) {
+                connect(timer, &QTimer::timeout, [=]() mutable
+                {
+                    if (nodoActual != nullptr)
+                    {
                         int nuevoX = nodoActual->x;
                         int nuevoY = nodoActual->y;
 
-                        if (nuevoX < 0 || nuevoX >= SIZE || nuevoY < 0 || nuevoY >= SIZE) {
-                            std::cout << "Coordenadas inválidas detectadas: (" << nuevoX << ", " << nuevoY << "). Deteniendo movimiento." << std::endl;
+                        if (nuevoX < 0 || nuevoX >= SIZE || nuevoY < 0 || nuevoY >= SIZE)
+                        {
+                            std::cout << "Coordenadas inválidas detectadas: (" << nuevoX << ", " << nuevoY <<
+                                "). Deteniendo movimiento." << std::endl;
                             timer->stop();
                             mainWindow->enMovimiento = false;
                             return;
@@ -168,7 +204,93 @@ void GameController::onDestinoSeleccionado(int x, int y) {
                         std::cout << "Moviendo tanque a: (" << nuevoX << ", " << nuevoY << ")" << std::endl;
 
                         nodoActual = nodoActual->next;
-                    } else {
+                    }
+                    else
+                    {
+                        timer->stop();
+                        jugadorActual->limpiarSeleccion();
+                        mainWindow->enMovimiento = false;
+
+                        // Cambiar al siguiente jugador después de que termine el movimiento
+                        gameManager->cambiarTurno();
+                        std::cout << "Mapa después de mover tanque usando algoritmo de pathfinding:" << std::endl;
+                        mapa->printMapa();
+                    }
+                });
+
+                timer->start(500);
+            }
+        }
+    }
+}
+
+void GameController::onDisparoSeleccionado(int x, int y)
+{
+    if (!mainWindow->enMovimiento)
+    {
+        Jugador* jugadorActual = gameManager->getJugadorActual();
+
+        if (jugadorActual->getTanqueSeleccionado() != nullptr)
+        {
+            jugadorActual->setDisparo(x, y);
+            Tanque* tanqueSeleccionado = jugadorActual->getTanqueSeleccionado();
+
+
+            if (tanqueSeleccionado)
+            {
+                Ruta* ruta = nullptr;
+
+                LineaVista linea_vista;
+                ruta = linea_vista.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa, 3);
+
+                Nodo* nodoActual = ruta->inicio;
+                mainWindow->enMovimiento = true;
+
+                QTimer* timer = new QTimer(this);
+                connect(timer, &QTimer::timeout, [=]() mutable
+                {
+                    if (nodoActual != nullptr)
+                    {
+                        if (typeid(*mapa->matrizMapa[nodoActual->y][nodoActual->x]) == typeid(Tanque))
+                        {
+                            Tanque* tanqueGolpeado = dynamic_cast<Tanque*>(mapa->matrizMapa[nodoActual->y][nodoActual->
+                                x]);
+                            if (tanqueGolpeado->getColor() == Tanque::Color::AZUL || tanqueGolpeado->getColor() ==
+                                Tanque::Color::CELESTE)
+                            {
+                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida()-25);
+                            }
+                            else if (tanqueGolpeado->getColor() == Tanque::Color::ROJO || tanqueGolpeado->getColor() ==
+                                Tanque::Color::AMARILLO)
+                            {
+                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida()-50);
+                            }
+                            if (tanqueGolpeado->getVida() <= 0)
+                            {
+                                std::cout << "Tanque Golpeado se ha quedado sin vida" << std::endl;
+                            }
+                        }
+                        int nuevoX = nodoActual->x;
+                        int nuevoY = nodoActual->y;
+
+                        if (nuevoX < 0 || nuevoX >= SIZE || nuevoY < 0 || nuevoY >= SIZE)
+                        {
+                            std::cout << "Coordenadas inválidas detectadas: (" << nuevoX << ", " << nuevoY <<
+                                "). Deteniendo movimiento." << std::endl;
+                            timer->stop();
+                            mainWindow->enMovimiento = false;
+                            return;
+                        }
+
+
+                        mainWindow->pintarBala(nuevoX, nuevoY);
+
+                        std::cout << "Moviendo bala a: (" << nuevoX << ", " << nuevoY << ")" << std::endl;
+
+                        nodoActual = nodoActual->next;
+                    }
+                    else
+                    {
                         timer->stop();
                         jugadorActual->limpiarSeleccion();
                         mainWindow->enMovimiento = false;

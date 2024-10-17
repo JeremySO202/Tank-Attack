@@ -40,7 +40,15 @@ int coordToIndexx(int x, int y)
     return y * SIZE + x;
 }
 
-
+/**
+ * Obtiene la ruta de una coordenada a otra
+ * @param xi eje x de inicio
+ * @param yi eje y de inicio
+ * @param xd eje x de destino
+ * @param yd eje y de destino
+ * @param mapa mapa a navegar
+ * @return ruta que se debe seguir
+ */
 Ruta* Astar::obtenerRuta(int xi, int yi, int xd, int yd, Mapa* mapa)
 {
     Ruta* ruta = new Ruta();

@@ -9,6 +9,7 @@
 #include <QVBoxLayout>
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
+
 #include "../Objetos/Tanque.h"
 
 /**
@@ -19,7 +20,8 @@
  * @param parent Puntero al objeto padre.
  */
 MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
-    : QMainWindow(parent), mapa(mapa), gameManager(gameManager), enMovimiento(false) {
+    : QMainWindow(parent), mapa(mapa), gameManager(gameManager), enMovimiento(false)
+{
     scene = new QGraphicsScene(this);
     view = new QGraphicsView(scene, this);
     informacionLabel = new QLabel(this); // Inicializamos el label para mostrar información del juego
@@ -41,7 +43,8 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
  * @param jugadorActual Puntero al jugador actual.
  * @param tiempoRestante Tiempo restante en segundos.
  */
-void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante) {
+void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante)
+{
     QString info = QString("Turno: jugador %1\nTiempo restante: %2 segundos")
                    .arg(jugadorActual->getId())
                    .arg(tiempoRestante);
@@ -52,76 +55,102 @@ void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRe
  * Inicializa el mapa dibujando cada celda.
  * @param mapa Puntero al objeto Mapa.
  */
-void MainWindow::inicializarMapa(Mapa* mapa) {
+void MainWindow::inicializarMapa(Mapa* mapa)
+{
     int cellSize = 50;
 
-    for (int i = 0; i < SIZE; ++i) {
-        for (int j = 0; j < SIZE; ++j) {
+    for (int i = 0; i < SIZE; ++i)
+    {
+        for (int j = 0; j < SIZE; ++j)
+        {
             QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
-            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible)) {
+            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+            {
                 cell->setBrush(Qt::darkGray);
-            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo)) {
+            }
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
+            {
                 cell->setBrush(Qt::green);
-            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque)) {
+            }
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
+            {
                 Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[i][j]);
-                if (tanque != nullptr) {
-                    switch (tanque->getColor()) {
-                        case Tanque::Color::ROJO:
-                            cell->setBrush(Qt::red);
-                            break;
-                        case Tanque::Color::AZUL:
-                            cell->setBrush(Qt::blue);
-                            break;
-                        case Tanque::Color::AMARILLO:
-                            cell->setBrush(Qt::yellow);
-                            break;
-                        case Tanque::Color::CELESTE:
-                            cell->setBrush(Qt::cyan);
-                            break;
+                if (tanque != nullptr)
+                {
+                    switch (tanque->getColor())
+                    {
+                    case Tanque::Color::ROJO:
+                        cell->setBrush(Qt::red);
+                        break;
+                    case Tanque::Color::AZUL:
+                        cell->setBrush(Qt::blue);
+                        break;
+                    case Tanque::Color::AMARILLO:
+                        cell->setBrush(Qt::yellow);
+                        break;
+                    case Tanque::Color::CELESTE:
+                        cell->setBrush(Qt::cyan);
+                        break;
                     }
                 }
             }
         }
     }
 }
-
+void MainWindow::pintarBala(int x, int y){
+    int cellSize = 50;
+    actualizarTanque(x,y);
+    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize+ cellSize/4, cellSize/2, cellSize/2);
+    cell->setBrush(Qt::black);
+    forzarActualizacion();
+}
 /**
  * Actualiza la posición del tanque en el mapa.
  * @param x Coordenada x.
  * @param y Coordenada y.
  */
-void MainWindow::actualizarTanque(int nuevoX, int nuevoY) {
+void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
+{
     int cellSize = 50;
 
     // Actualizar toda la cuadrícula de nuevo para reflejar el estado actual
     scene->clear(); // Limpiamos toda la escena para asegurarnos de redibujarla correctamente
 
-    for (int i = 0; i < SIZE; ++i) {
-        for (int j = 0; j < SIZE; ++j) {
+    for (int i = 0; i < SIZE; ++i)
+    {
+        for (int j = 0; j < SIZE; ++j)
+        {
             QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
 
-            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible)) {
+            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+            {
                 cell->setBrush(Qt::darkGray);
-            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo)) {
+            }
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
+            {
                 cell->setBrush(Qt::green);
-            } else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque)) {
+            }
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
+            {
                 Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[i][j]);
-                if (tanque != nullptr) {
-                    QColor color = Qt::blue;  // Color por defecto
+                if (tanque != nullptr)
+                {
+                    QColor color = Qt::blue; // Color por defecto
 
                     // Selecciona el color del tanque según su tipo
-                    switch (tanque->getColor()) {
-                        case Tanque::Color::ROJO:
-                            color = Qt::red;
+                    switch (tanque->getColor())
+                    {
+                    case Tanque::Color::ROJO:
+                        color = Qt::red;
                         break;
-                        case Tanque::Color::AZUL:
-                            color = Qt::blue;
+                    case Tanque::Color::AZUL:
+                        color = Qt::blue;
                         break;
-                        case Tanque::Color::AMARILLO:
-                            color = Qt::yellow;
+                    case Tanque::Color::AMARILLO:
+                        color = Qt::yellow;
                         break;
-                        case Tanque::Color::CELESTE:
-                            color = Qt::cyan;
+                    case Tanque::Color::CELESTE:
+                        color = Qt::cyan;
                         break;
                     }
 
@@ -140,7 +169,8 @@ void MainWindow::actualizarTanque(int nuevoX, int nuevoY) {
 /**
  * Fuerza la actualización de la vista y la escena.
  */
-void MainWindow::forzarActualizacion() {
+void MainWindow::forzarActualizacion()
+{
     view->update();
     scene->update();
 }
@@ -149,7 +179,8 @@ void MainWindow::forzarActualizacion() {
  * Maneja los eventos de clic del ratón para seleccionar tanques o destinos.
  * @param event Evento del clic del ratón.
  */
-void MainWindow::mousePressEvent(QMouseEvent* event) {
+void MainWindow::mousePressEvent(QMouseEvent* event)
+{
     if (enMovimiento) return;
 
     int cellSize = 50;
@@ -157,11 +188,23 @@ void MainWindow::mousePressEvent(QMouseEvent* event) {
     int x = static_cast<int>(scenePos.x()) / cellSize;
     int y = static_cast<int>(scenePos.y()) / cellSize;
 
-    if (x >= 0 && x < SIZE && y >= 0 && y < SIZE) {
-        if (typeid(*mapa->matrizMapa[y][x]) == typeid(Tanque)) {
-            emit tanqueSeleccionadoSignal(x, y);
-        } else if (typeid(*mapa->matrizMapa[y][x]) == typeid(Suelo)) {
+    if (x >= 0 && x < SIZE && y >= 0 && y < SIZE)
+    {
+        if (Qt::LeftButton == event->button() && typeid(*mapa->matrizMapa[y][x]) == typeid(Suelo))
+        {
             emit destinoSeleccionadoSignal(x, y);
+            return;
+        }
+        if (Qt::RightButton == event->button())
+        {
+            emit disparoSeleccionadoSignal(x, y);
+            return;
+        }
+        {
+        }
+        if (typeid(*mapa->matrizMapa[y][x]) == typeid(Tanque))
+        {
+            emit tanqueSeleccionadoSignal(x, y);
         }
     }
 }

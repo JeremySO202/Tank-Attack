@@ -23,8 +23,14 @@ int Tanque::getY() const {
     return y;
 }
 
+
 Tanque::Color Tanque::getColor() const {
     return color;
+}
+
+int Tanque::getVida() const
+{
+    return vida;
 }
 
 void Tanque::setX(int x) {
@@ -33,4 +39,7 @@ void Tanque::setX(int x) {
 
 void Tanque::setY(int y) {
     this->y = y;
+}
+void Tanque::setVida(int vida) {
+    this->vida = vida;
 }

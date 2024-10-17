@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -289,7 +289,7 @@ CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Tanque.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream

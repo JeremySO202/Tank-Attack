@@ -52,6 +52,15 @@ void Jugador::setDestino(int x, int y) {
     std::cout << "Destino establecido en (" << x << ", " << y << ")" << std::endl;
 }
 
+void Jugador::setDisparo(int x, int y)
+{
+    if (!tanqueSeleccionado) {
+        std::cout << "No hay un tanque seleccionado." << std::endl;
+        return;
+    }
+    std::cout << "Disparo establecido en (" << x << ", " << y << ")" << std::endl;
+}
+
 /**
  * Obtiene el tanque seleccionado.
  * @return Puntero al tanque seleccionado.

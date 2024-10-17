@@ -23,9 +23,10 @@ public:
     GameController(QObject* parent = nullptr);
     void iniciarJuego();
 
-    private slots:
-        void onTanqueSeleccionado(int x, int y);
+private slots:
+    void onTanqueSeleccionado(int x, int y);
     void onDestinoSeleccionado(int x, int y);
+    void onDisparoSeleccionado(int x, int y);
 };
 
 #endif // GAMECONTROLLER_H

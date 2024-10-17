@@ -1,13 +1,13 @@
 CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
- /home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.cpp \
  /usr/include/stdc-predef.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/Mapa.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
- /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/Mapa.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Tanque.h \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
