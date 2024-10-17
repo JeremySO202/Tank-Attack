@@ -69,6 +69,30 @@ Tanque* Jugador::getTanqueSeleccionado() const {
     return tanqueSeleccionado;
 }
 
+int Jugador::getCantidadTanques()
+{
+    return numTanques;
+}
+
+int Jugador::getTanquesVivos()
+{
+    int cant = 0;
+    for (int i = 0; i < numTanques; ++i)
+    {
+        if (tanques[i]->getVida()>0)
+        {
+            cant++;
+        }
+
+    }
+    return cant;
+}
+
+void Jugador::setNumTanques(int n)
+{
+    numTanques = n;
+}
+
 /**
  * Obtiene el ID del jugador.
  * @return ID del jugador.

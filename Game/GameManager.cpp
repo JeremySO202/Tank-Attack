@@ -5,6 +5,8 @@
 #include "GameManager.h"
 #include <iostream>
 
+#include "../Objetos/Suelo.h"
+
 /**
  * Constructor de GameManager.
  * Inicializa con el mapa proporcionado.
@@ -31,10 +33,52 @@ Jugador* GameManager::getJugadorActual() {
 }
 
 /**
+ * Elimina los tanques que no tengan vida
+ */
+void GameManager::actualizarTanques()
+{
+    for (int i = 0; i < numJugadores; i++)
+    {
+        Jugador* jugador = jugadores[i];
+
+        for (int j = 0; j < jugador->getCantidadTanques(); j++)
+        {
+            if (jugador->tanques[j]->getVida()==0)
+            {
+                mapa->matrizMapa[jugador->tanques[j]->getY()][jugador->tanques[j]->getX()] = new Suelo();
+            }
+        }
+    }
+
+}
+
+int GameManager::obtenerGanador(){
+    int min = jugadores[0]->getTanquesVivos();
+    int minIndice = 0;
+    for (int i = 1; i < numJugadores; i++)
+    {
+        if (jugadores[i]->getTanquesVivos() < min)
+        {
+            min = jugadores[i]->getTanquesVivos();
+            minIndice = i;
+        }
+    }
+    return minIndice;
+}
+
+/**
  * Cambia el turno al siguiente jugador.
  */
 void GameManager::cambiarTurno() {
+    if (jugadores[jugadorActual]->getTanquesVivos()==0)
+    {
+        std::cout << "El jugador " << (jugadorActual + 1) << "ha perdido." <<std::endl;
+    }
     jugadorActual = (jugadorActual + 1) % numJugadores;
+    if (jugadores[jugadorActual]->getTanquesVivos()==0)
+    {
+        std::cout << "El jugador " << (jugadorActual + 1) << " ha perdido." <<std::endl;
+    }
     std::cout << "Es el turno del jugador: " << (jugadorActual + 1) << std::endl;
 }
 

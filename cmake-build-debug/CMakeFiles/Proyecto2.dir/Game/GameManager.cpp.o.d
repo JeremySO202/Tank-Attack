@@ -161,4 +161,5 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Suelo.h

@@ -27,19 +27,32 @@ GameController::GameController(QObject* parent) : QObject(parent)
     Jugador* jugador1 = new Jugador(1, true);
     Jugador* jugador2 = new Jugador(2, true);
 
-    Tanque* tanqueRojo = new Tanque(1, 1, Tanque::Color::ROJO);
-    Tanque* tanqueAzul = new Tanque(2, 1, Tanque::Color::AZUL);
-    jugador1->agregarTanque(tanqueRojo);
-    jugador1->agregarTanque(tanqueAzul);
-    mapa->matrizMapa[1][1] = tanqueRojo;
-    mapa->matrizMapa[1][2] = tanqueAzul;
+    Tanque* tanqueRojo1 = new Tanque(1, 1, Tanque::Color::ROJO);
+    Tanque* tanqueRojo2 = new Tanque(2, 1, Tanque::Color::ROJO);
+    Tanque* tanqueAzul1 = new Tanque(3, 1, Tanque::Color::AZUL);
+    Tanque* tanqueAzul2 = new Tanque(4, 1, Tanque::Color::AZUL);
+    jugador1->agregarTanque(tanqueRojo1);
+    jugador1->agregarTanque(tanqueRojo2);
+    jugador1->agregarTanque(tanqueAzul1);
+    jugador1->agregarTanque(tanqueAzul2);
+    mapa->matrizMapa[1][1] = tanqueRojo1;
+    mapa->matrizMapa[1][2] = tanqueRojo2;
+    mapa->matrizMapa[1][3] = tanqueAzul1;
+    mapa->matrizMapa[1][4] = tanqueAzul2;
 
-    Tanque* tanqueAmarillo = new Tanque(8, 8, Tanque::Color::AMARILLO);
-    Tanque* tanqueCeleste = new Tanque(7, 8, Tanque::Color::CELESTE);
-    jugador2->agregarTanque(tanqueAmarillo);
-    jugador2->agregarTanque(tanqueCeleste);
-    mapa->matrizMapa[8][8] = tanqueAmarillo;
-    mapa->matrizMapa[8][7] = tanqueCeleste;
+    Tanque* tanqueAmarillo1 = new Tanque(13, 13, Tanque::Color::AMARILLO);
+    Tanque* tanqueAmarillo2 = new Tanque(12, 13, Tanque::Color::AMARILLO);
+    Tanque* tanqueCeleste1 = new Tanque(11, 13, Tanque::Color::CELESTE);
+    Tanque* tanqueCeleste2 = new Tanque(10, 13, Tanque::Color::CELESTE);
+
+    jugador2->agregarTanque(tanqueAmarillo1);
+    jugador2->agregarTanque(tanqueAmarillo2);
+    jugador2->agregarTanque(tanqueCeleste1);
+    jugador2->agregarTanque(tanqueCeleste2);
+    mapa->matrizMapa[13][13] = tanqueAmarillo1;
+    mapa->matrizMapa[13][12] = tanqueAmarillo2;
+    mapa->matrizMapa[13][11] = tanqueCeleste1;
+    mapa->matrizMapa[13][10] = tanqueCeleste2;
 
     gameManager->agregarJugador(jugador1);
     gameManager->agregarJugador(jugador2);
@@ -63,7 +76,7 @@ void GameController::iniciarJuego()
     mainWindow->activateWindow();
 
     // Inicializa el tiempo restante (en segundos)
-    int tiempoRestante = 300; // 5 minutos
+    int tiempoRestante = 60; // 5 minutos
 
     // Iniciar un temporizador que cuenta hacia atrás
     QTimer* timer = new QTimer(this);
@@ -77,6 +90,8 @@ void GameController::iniciarJuego()
         else
         {
             timer->stop();
+            int ganador = gameManager->obtenerGanador();
+            std::cout << "El jugador " << (ganador + 1) << " ha perdido." <<std::endl;
             std::cout << "El tiempo se ha agotado. Fin del juego." << std::endl;
         }
     });
@@ -244,6 +259,8 @@ void GameController::onDisparoSeleccionado(int x, int y)
                 ruta = linea_vista.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa, 3);
 
                 Nodo* nodoActual = ruta->inicio;
+                int oldX = nodoActual->x;
+                int oldY = nodoActual->y;
                 mainWindow->enMovimiento = true;
 
                 QTimer* timer = new QTimer(this);
@@ -267,6 +284,7 @@ void GameController::onDisparoSeleccionado(int x, int y)
                             }
                             if (tanqueGolpeado->getVida() <= 0)
                             {
+                                gameManager->actualizarTanques();
                                 std::cout << "Tanque Golpeado se ha quedado sin vida" << std::endl;
                             }
                         }
@@ -283,9 +301,12 @@ void GameController::onDisparoSeleccionado(int x, int y)
                         }
 
 
-                        mainWindow->pintarBala(nuevoX, nuevoY);
+                        mainWindow->pintarBala(nuevoX, nuevoY, oldX, oldY);
 
                         std::cout << "Moviendo bala a: (" << nuevoX << ", " << nuevoY << ")" << std::endl;
+
+                        oldX = nuevoX;
+                        oldY = nuevoY;
 
                         nodoActual = nodoActual->next;
                     }

@@ -97,11 +97,13 @@ void MainWindow::inicializarMapa(Mapa* mapa)
         }
     }
 }
-void MainWindow::pintarBala(int x, int y){
+void MainWindow::pintarBala(int x, int y, int oldX, int oldY){
     int cellSize = 50;
-    actualizarTanque(x,y);
+    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize+ cellSize/4, cellSize/2, cellSize/2);
+    cell2->setBrush(Qt::magenta);
     QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize+ cellSize/4, cellSize/2, cellSize/2);
     cell->setBrush(Qt::black);
+
     forzarActualizacion();
 }
 /**

@@ -437,6 +437,7 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: /home/jeremy/Codigos/Tarea/Dato
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \

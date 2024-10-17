@@ -7,7 +7,7 @@
 #include "../Objetos/Objeto.h"
 #include "../Pathfinding/Ruta.h"
 
-const int SIZE = 10;
+const int SIZE = 15;
 const int GRAPHSIZE = SIZE * SIZE;
 const int DESP_VERT_HORI = 10;
 const int DESP_DIAGO = 14;

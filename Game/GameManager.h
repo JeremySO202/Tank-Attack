@@ -21,6 +21,8 @@ public:
     GameManager(Mapa* mapa);
     void agregarJugador(Jugador* jugador);
     Jugador* getJugadorActual(); // Obtener el jugador actual
+    void actualizarTanques();
+    int obtenerGanador();
     void cambiarTurno(); // Cambiar de turno
     void seleccionarTanque(int x, int y);
     void setDestino(int x, int y);
