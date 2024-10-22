@@ -5,6 +5,7 @@
 #include "GameManager.h"
 #include <iostream>
 
+#include "GameController.h"
 #include "../Objetos/Suelo.h"
 
 /**
@@ -12,7 +13,7 @@
  * Inicializa con el mapa proporcionado.
  * @param mapa Puntero al objeto Mapa.
  */
-GameManager::GameManager(Mapa* mapa) : mapa(mapa), numJugadores(0), jugadorActual(0) {}
+GameManager::GameManager(Mapa* mapa, GameController* controller) : mapa(mapa), numJugadores(0), jugadorActual(0), gameController(controller){}
 
 /**
  * Agrega un jugador al juego.
@@ -69,17 +70,28 @@ int GameManager::obtenerGanador(){
 /**
  * Cambia el turno al siguiente jugador.
  */
+/**
+ * Cambia el turno al siguiente jugador y genera un power-up.
+ */
+/**
+ * Cambia el turno al siguiente jugador y genera un power-up.
+ */
 void GameManager::cambiarTurno() {
-    if (jugadores[jugadorActual]->getTanquesVivos()==0)
-    {
-        std::cout << "El jugador " << (jugadorActual + 1) << "ha perdido." <<std::endl;
+    if (jugadores[jugadorActual]->getTanquesVivos() == 0) {
+        std::cout << "El jugador " << (jugadorActual + 1) << " ha perdido." << std::endl;
     }
-    jugadorActual = (jugadorActual + 1) % numJugadores;
-    if (jugadores[jugadorActual]->getTanquesVivos()==0)
-    {
-        std::cout << "El jugador " << (jugadorActual + 1) << " ha perdido." <<std::endl;
+
+    if (jugadores[jugadorActual]->numTurnosExtra > 0) {
+        jugadores[jugadorActual]->numTurnosExtra--;
+    } else {
+        jugadorActual = (jugadorActual + 1) % numJugadores;
     }
+
     std::cout << "Es el turno del jugador: " << (jugadorActual + 1) << std::endl;
+
+    if (gameController) {
+        gameController->generarPowerUpAleatorio(jugadores[jugadorActual]);
+    }
 }
 
 /**
@@ -98,4 +110,20 @@ void GameManager::seleccionarTanque(int x, int y) {
  */
 void GameManager::setDestino(int x, int y) {
     jugadores[jugadorActual]->setDestino(x, y);
+}
+/**
+ * Aplica un power-up si el jugador actual tiene alguno.
+ */
+void GameManager::usarPowerUp() {
+    if (puedeUsarPowerUp()) {
+        jugadores[jugadorActual]->aplicarPowerUp();
+    }
+}
+
+/**
+ * Verifica si el jugador actual tiene power-ups disponibles.
+ * @return true si tiene power-ups, false de lo contrario.
+ */
+bool GameManager::puedeUsarPowerUp() const {
+    return jugadores[jugadorActual]->tienePowerUps();
 }

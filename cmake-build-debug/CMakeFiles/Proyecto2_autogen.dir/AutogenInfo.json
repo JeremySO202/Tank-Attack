@@ -99,6 +99,12 @@
 			null
 		],
 		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h",
+			"MU",
+			"P4N2LYW5XE/moc_PowerUp.cpp",
+			null
+		],
+		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h",
 			"MU",
 			"P4N2LYW5XE/moc_TurnoManager.cpp",
@@ -251,6 +257,7 @@
 			null
 		],
 		[ "/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp", "MU", null ],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp", "MU", null ],
 		[
 			"/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp",
 			"MU",

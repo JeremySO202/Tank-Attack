@@ -227,6 +227,30 @@ Game/Jugador.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.s
 .PHONY : Game/Jugador.cpp.s
 
+Game/PowerUp.o: Game/PowerUp.cpp.o
+.PHONY : Game/PowerUp.o
+
+# target to build an object file
+Game/PowerUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o
+.PHONY : Game/PowerUp.cpp.o
+
+Game/PowerUp.i: Game/PowerUp.cpp.i
+.PHONY : Game/PowerUp.i
+
+# target to preprocess a source file
+Game/PowerUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.i
+.PHONY : Game/PowerUp.cpp.i
+
+Game/PowerUp.s: Game/PowerUp.cpp.s
+.PHONY : Game/PowerUp.s
+
+# target to generate assembly for a file
+Game/PowerUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto2.dir/build.make CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.s
+.PHONY : Game/PowerUp.cpp.s
+
 Game/TurnoManager.o: Game/TurnoManager.cpp.o
 .PHONY : Game/TurnoManager.o
 
@@ -679,6 +703,9 @@ help:
 	@echo "... Game/Jugador.o"
 	@echo "... Game/Jugador.i"
 	@echo "... Game/Jugador.s"
+	@echo "... Game/PowerUp.o"
+	@echo "... Game/PowerUp.i"
+	@echo "... Game/PowerUp.s"
 	@echo "... Game/TurnoManager.o"
 	@echo "... Game/TurnoManager.i"
 	@echo "... Game/TurnoManager.s"

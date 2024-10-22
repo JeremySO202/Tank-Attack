@@ -11,7 +11,7 @@
  * @param usaMouse Indica si usa mouse.
  */
 Jugador::Jugador(int id, bool usaMouse)
-    : id(id), tanqueSeleccionado(nullptr), numTanques(0) {}
+    : id(id), tanqueSeleccionado(nullptr), numTanques(0), powerUpCount(0) {}
 
 /**
  * Agrega un tanque al jugador.
@@ -106,4 +106,87 @@ int Jugador::getId() const {
  */
 void Jugador::limpiarSeleccion() {
     tanqueSeleccionado = nullptr;
+}
+
+void Jugador::agregarPowerUp(PowerUp* powerUp) {
+    if (powerUpCount < MAX_POWERUPS) {
+        powerUpList[powerUpCount++] = powerUp;
+        std::cout << "Power-Up añadido: " << powerUp->getTipoString() << std::endl;
+    } else {
+        std::cout << "No se puede agregar más power-ups. Límite alcanzado." << std::endl;
+    }
+}
+
+void Jugador::usarPowerUp() {
+    if (powerUpCount > 0) {
+        PowerUp* powerUp = powerUpList[0];
+        powerUp->aplicar(this);
+        delete powerUp;
+
+        // Desplazar los restantes hacia adelante
+        for (int i = 1; i < powerUpCount; ++i) {
+            powerUpList[i - 1] = powerUpList[i];
+        }
+
+        powerUpCount--;
+    } else {
+        std::cout << "No hay power-ups para usar." << std::endl;
+    }
+}
+
+bool Jugador::tienePowerUps() const {
+    return powerUpCount > 0;
+}
+
+PowerUp* const* Jugador::getPowerUps(int& count) const {
+    count = powerUpCount;
+    return powerUpList;
+}
+
+void Jugador::setPrecisionMovimiento(bool valor) {
+    precisionMovimiento = valor;
+}
+
+void Jugador::setPrecisionAtaque(bool valor) {
+    precisionAtaque = valor;
+}
+
+void Jugador::setPoderAtaque(bool valor) {
+    poderAtaque = valor;
+}
+
+void Jugador::setNumTurnosExtra(int turnos) {
+    numTurnosExtra = turnos;
+}
+
+bool Jugador::getPrecisionMovimiento() const {
+    return precisionMovimiento;
+}
+
+bool Jugador::getPrecisionAtaque() const {
+    return precisionAtaque;
+}
+
+bool Jugador::getPoderAtaque() const {
+    return poderAtaque;
+}
+
+#include "Jugador.h"
+#include <iostream>
+
+void Jugador::aplicarPowerUp() {
+    if (powerUpCount > 0) {
+        PowerUp* powerUp = powerUpList[0]; // Aplicar el primer power-up de la lista
+        powerUp->aplicar(this); // Aplicar los efectos del power-up
+        std::cout << "Power-up aplicado: " << powerUp->getTipoString() << std::endl;
+
+        // Eliminar el power-up utilizado de la lista y reordenar
+        for (int i = 1; i < powerUpCount; ++i) {
+            powerUpList[i - 1] = powerUpList[i];
+        }
+        powerUpList[powerUpCount - 1] = nullptr;
+        powerUpCount--;
+    } else {
+        std::cout << "No hay power-ups para aplicar." << std::endl;
+    }
 }

@@ -355,6 +355,10 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/../Pathfinding/Ruta.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/Jugador.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/PowerUp.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Tanque.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/MainWindow.h \

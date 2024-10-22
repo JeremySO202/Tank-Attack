@@ -2,12 +2,14 @@
 // Created by mvasquezr on 9/28/24.
 //
 #include "MainWindow.h"
+#include"../Game/PowerUp.h"
 #include <QGraphicsRectItem>
 #include <QGraphicsPixmapItem>
 #include <QBrush>
 #include <QMouseEvent>
 #include <QTimer>
 #include <QVBoxLayout>
+#include <QKeyEvent>
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
 #include "../Objetos/Tanque.h"
@@ -36,7 +38,7 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     setCentralWidget(centralWidget);
 
     inicializarMapa(mapa);
-    resize(570, 570);
+    resize(870, 870);
 }
 
 /**
@@ -49,6 +51,20 @@ void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRe
     QString info = QString("Turno: jugador %1\nTiempo restante: %2 segundos")
                    .arg(jugadorActual->getId())
                    .arg(tiempoRestante);
+
+    // Información de los power-ups
+    QString powerUpsInfo = "\nPower-Ups: ";
+    int powerUpCount = 0;
+    PowerUp* const* powerUps = jugadorActual->getPowerUps(powerUpCount); // Obtener la lista y el número de power-ups
+
+    for (int i = 0; i < powerUpCount; ++i) {
+        if (powerUps[i]) {
+            powerUpsInfo += QString::fromStdString(powerUps[i]->getTipoString()) + ", " + " ";
+        }
+    }
+
+    // Concatenar la información general y de power-ups
+    info += powerUpsInfo;
     informacionLabel->setText(info);
 }
 
@@ -119,9 +135,9 @@ void MainWindow::inicializarMapa(Mapa* mapa)
 
 void MainWindow::pintarBala(int x, int y, int oldX, int oldY){
     int cellSize = 50;
-    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize + cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize + cellSize/4, cellSize/4, cellSize/4);
     cell2->setBrush(Qt::magenta);
-    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize + cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize + cellSize/4, cellSize/4, cellSize/4);
     cell->setBrush(Qt::black);
 
     forzarActualizacion();
@@ -239,5 +255,16 @@ void MainWindow::mousePressEvent(QMouseEvent* event)
         {
             emit tanqueSeleccionadoSignal(x, y);
         }
+    }
+}
+/**
+ * Maneja los eventos de teclas para activar power-ups.
+ * @param event Evento de la tecla presionada.
+ */
+void MainWindow::keyPressEvent(QKeyEvent* event)
+{
+    if (event->key() == Qt::Key_Shift) // Detectar la tecla "Shift"
+    {
+        emit usarPowerUpSignal(); // Emitir la señal para usar el power-up
     }
 }

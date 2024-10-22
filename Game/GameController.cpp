@@ -4,6 +4,7 @@
 
 #include "GameController.h"
 #include "../Pathfinding/Bfs.h"
+#include "../Pathfinding/Astar.h"
 #include "../Pathfinding/Dijkstra.h"
 #include "../Pathfinding/RandomMovement.h"
 #include "../Objetos/Suelo.h"
@@ -21,7 +22,7 @@
 GameController::GameController(QObject* parent) : QObject(parent)
 {
     mapa = new Mapa();
-    gameManager = new GameManager(mapa);
+    gameManager = new GameManager(mapa, this);
 
     // Inicializar los dos jugadores y sus tanques
     Jugador* jugador1 = new Jugador(1, true);
@@ -64,6 +65,7 @@ GameController::GameController(QObject* parent) : QObject(parent)
     connect(mainWindow, &MainWindow::tanqueSeleccionadoSignal, this, &GameController::onTanqueSeleccionado);
     connect(mainWindow, &MainWindow::destinoSeleccionadoSignal, this, &GameController::onDestinoSeleccionado);
     connect(mainWindow, &MainWindow::disparoSeleccionadoSignal, this, &GameController::onDisparoSeleccionado);
+    connect(mainWindow, &MainWindow::usarPowerUpSignal, this, &GameController::onUsarPowerUp);
 }
 
 /**
@@ -76,7 +78,7 @@ void GameController::iniciarJuego()
     mainWindow->activateWindow();
 
     // Inicializa el tiempo restante (en segundos)
-    int tiempoRestante = 60; // 5 minutos
+    int tiempoRestante = 300; // 5 minutos
 
     // Iniciar un temporizador que cuenta hacia atrás
     QTimer* timer = new QTimer(this);
@@ -140,8 +142,18 @@ void GameController::onDestinoSeleccionado(int x, int y)
 
                 int randomValue = std::rand() % 100;
 
-                // Selección de algoritmo según el color del tanque
-                if (tanqueSeleccionado->getColor() == Tanque::Color::AZUL || tanqueSeleccionado->getColor() ==
+                if (jugadorActual->getPrecisionMovimiento() && randomValue < 90) {
+                    std::cout << "Power-Up Precisión de Movimiento activado con un 90% de probabilidad." << std::endl;
+                    if (tanqueSeleccionado->getColor() == Tanque::Color::AZUL || tanqueSeleccionado->getColor() == Tanque::Color::CELESTE) {
+                        Bfs bfs;
+                        ruta = bfs.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
+                    } else {
+                        ruta = Dijkstra::shortestPath(mapa->matrizAdyacencia, GRAPHSIZE,
+                                                      mapa->coordenadaANodo(tanqueSeleccionado->getX(), tanqueSeleccionado->getY()),
+                                                      mapa->coordenadaANodo(x, y), mapa);
+                    }
+                    jugadorActual->setPrecisionMovimiento(false); // Desactivar para el siguiente turno
+                } else if (tanqueSeleccionado->getColor() == Tanque::Color::AZUL || tanqueSeleccionado->getColor() ==
                     Tanque::Color::CELESTE)
                 {
                     if (randomValue < 50)
@@ -250,13 +262,26 @@ void GameController::onDisparoSeleccionado(int x, int y)
             jugadorActual->setDisparo(x, y);
             Tanque* tanqueSeleccionado = jugadorActual->getTanqueSeleccionado();
 
-
             if (tanqueSeleccionado)
             {
                 Ruta* ruta = nullptr;
 
-                LineaVista linea_vista;
-                ruta = linea_vista.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa, 3);
+                // Verificar si el power-up de precisión de ataque está activo
+                if (jugadorActual->getPrecisionAtaque()) {
+                    std::cout << "Power-Up Precisión de Ataque activado: utilizando algoritmo A*." << std::endl;
+                    Astar aStar;
+                    ruta = aStar.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
+                    jugadorActual->setPrecisionAtaque(false); // Desactivar para el siguiente turno
+                } else {
+                    // Usar el comportamiento normal sin power-up (linea de vista)
+                    LineaVista linea_vista;
+                    ruta = linea_vista.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa, 3);
+                }
+
+                if (ruta == nullptr || ruta->inicio == nullptr) {
+                    std::cout << "No se pudo encontrar una ruta válida para el disparo." << std::endl;
+                    return;
+                }
 
                 Nodo* nodoActual = ruta->inicio;
                 int oldX = nodoActual->x;
@@ -270,17 +295,14 @@ void GameController::onDisparoSeleccionado(int x, int y)
                     {
                         if (typeid(*mapa->matrizMapa[nodoActual->y][nodoActual->x]) == typeid(Tanque))
                         {
-                            Tanque* tanqueGolpeado = dynamic_cast<Tanque*>(mapa->matrizMapa[nodoActual->y][nodoActual->
-                                x]);
-                            if (tanqueGolpeado->getColor() == Tanque::Color::AZUL || tanqueGolpeado->getColor() ==
-                                Tanque::Color::CELESTE)
+                            Tanque* tanqueGolpeado = dynamic_cast<Tanque*>(mapa->matrizMapa[nodoActual->y][nodoActual->x]);
+                            if (tanqueGolpeado->getColor() == Tanque::Color::AZUL || tanqueGolpeado->getColor() == Tanque::Color::CELESTE)
                             {
-                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida()-25);
+                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida() - 25);
                             }
-                            else if (tanqueGolpeado->getColor() == Tanque::Color::ROJO || tanqueGolpeado->getColor() ==
-                                Tanque::Color::AMARILLO)
+                            else if (tanqueGolpeado->getColor() == Tanque::Color::ROJO || tanqueGolpeado->getColor() == Tanque::Color::AMARILLO)
                             {
-                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida()-50);
+                                tanqueGolpeado->setVida(tanqueSeleccionado->getVida() - 50);
                             }
                             if (tanqueGolpeado->getVida() <= 0)
                             {
@@ -293,13 +315,11 @@ void GameController::onDisparoSeleccionado(int x, int y)
 
                         if (nuevoX < 0 || nuevoX >= SIZE || nuevoY < 0 || nuevoY >= SIZE)
                         {
-                            std::cout << "Coordenadas inválidas detectadas: (" << nuevoX << ", " << nuevoY <<
-                                "). Deteniendo movimiento." << std::endl;
+                            std::cout << "Coordenadas inválidas detectadas: (" << nuevoX << ", " << nuevoY << "). Deteniendo movimiento." << std::endl;
                             timer->stop();
                             mainWindow->enMovimiento = false;
                             return;
                         }
-
 
                         mainWindow->pintarBala(nuevoX, nuevoY, oldX, oldY);
 
@@ -326,5 +346,49 @@ void GameController::onDisparoSeleccionado(int x, int y)
                 timer->start(500);
             }
         }
+    }
+}
+/**
+ * @brief Slot que maneja el uso de power-ups.
+ */
+void GameController::onUsarPowerUp() {
+    if (gameManager->puedeUsarPowerUp()) {
+        gameManager->usarPowerUp();
+        mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante); // Actualizar información
+    } else {
+        std::cout << "No hay power-ups disponibles para usar." << std::endl;
+    }
+}
+
+/**
+ * @brief Genera un power-up aleatorio para el jugador actual.
+ */
+void GameController::generarPowerUpAleatorio(Jugador* jugador) {
+    std::cout << "Generando Power-Up para el jugador " << jugador->getId() << std::endl;
+    int randomValue = std::rand() % 4;
+    PowerUp* nuevoPowerUp = nullptr;
+
+    switch (randomValue) {
+        case 0:
+            nuevoPowerUp = new DobleTurno();
+        break;
+        case 1:
+            nuevoPowerUp = new PrecisionMovimiento();
+        break;
+        case 2:
+            nuevoPowerUp = new PrecisionAtaque();
+        break;
+        case 3:
+            nuevoPowerUp = new PoderAtaque();
+        break;
+        default:
+            std::cerr << "Error: valor de Power-Up inválido" << std::endl;
+        return;
+    }
+
+    if (nuevoPowerUp) {
+        std::cout << "Añadiendo Power-Up " << nuevoPowerUp->getTipoString() << " al jugador " << jugador->getId() << std::endl;
+        jugador->agregarPowerUp(nuevoPowerUp);
+        mainWindow->actualizarInformacionJuego(jugador, tiempoRestante);
     }
 }
