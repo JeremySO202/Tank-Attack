@@ -4,5 +4,7 @@
         <file>blue.png</file>
         <file>yellow.png</file>
         <file>lightBlue.png</file>
+        <file>obstaculo.jpeg</file>
+        <file>start_background.png</file>
     </qresource>
 </RCC>

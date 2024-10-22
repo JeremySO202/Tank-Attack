@@ -290,6 +290,10 @@ CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
  /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream

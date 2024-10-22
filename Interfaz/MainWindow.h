@@ -8,6 +8,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QLabel>
+#include <QPushButton>
 #include "../Mapa/Mapa.h"
 #include "../Game/GameManager.h"
 
@@ -20,6 +21,7 @@ private:
     QGraphicsView* view;
     QLabel* informacionLabel; // Label para mostrar la información del juego
     GameManager* gameManager;
+    QString powerUpActivo;
 
 public:
     Mapa* mapa;
@@ -31,14 +33,19 @@ public:
     void actualizarTanque(int x, int y);
     void forzarActualizacion();
     void actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante);
+    void setPowerUpActivo(const QString& powerUp);
+    void limpiarPowerUpActivo();
+
 
 protected:
     void mousePressEvent(QMouseEvent* event) override;
+    void keyPressEvent(QKeyEvent* event) override;
 
 signals:
     void tanqueSeleccionadoSignal(int x, int y);
     void destinoSeleccionadoSignal(int x, int y);
     void disparoSeleccionadoSignal(int x, int y);
+    void usarPowerUpSignal();
     void movimientoFinalizado();
 };
 

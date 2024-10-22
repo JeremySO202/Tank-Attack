@@ -2,12 +2,14 @@
 // Created by mvasquezr on 9/28/24.
 //
 #include "MainWindow.h"
+#include"../Game/PowerUp.h"
 #include <QGraphicsRectItem>
 #include <QGraphicsPixmapItem>
 #include <QBrush>
 #include <QMouseEvent>
 #include <QTimer>
 #include <QVBoxLayout>
+#include <QKeyEvent>
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
 #include "../Objetos/Tanque.h"
@@ -25,6 +27,7 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     scene = new QGraphicsScene(this);
     view = new QGraphicsView(scene, this);
     informacionLabel = new QLabel(this); // Inicializamos el label para mostrar información del juego
+    informacionLabel->setWordWrap(true);
 
 
     QVBoxLayout* layout = new QVBoxLayout();
@@ -36,7 +39,7 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     setCentralWidget(centralWidget);
 
     inicializarMapa(mapa);
-    resize(570, 570);
+    resize(900, 900);
 }
 
 /**
@@ -46,11 +49,56 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
  */
 void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante)
 {
-    QString info = QString("Turno: jugador %1\nTiempo restante: %2 segundos")
-                   .arg(jugadorActual->getId())
-                   .arg(tiempoRestante);
+    // Crear el contenedor de información estilizado
+    QString info = QString(
+        "<div style='background-color:#2B2B2B; color: #FFFFFF; border-radius: 10px; padding: 15px; font-family: Arial, sans-serif;'>"
+        "<h2 style='font-size: 18px; text-align: center;'>Turno: Jugador %1</h2>"
+        "<p style='font-size: 18px; text-align: center;'>Tiempo restante: <span style='color: #FF5722;'>%2 segundos</span></p>"
+    ).arg(jugadorActual->getId()).arg(tiempoRestante);
+
+    // Información de los power-ups
+    QString powerUpsInfo = "<p style='font-size: 16px; text-align: center;'>Power-Ups: ";
+    int powerUpCount = 0;
+    PowerUp* const* powerUps = jugadorActual->getPowerUps(powerUpCount);
+
+    if (powerUpCount > 0) {
+        for (int i = 0; i < powerUpCount; ++i) {
+            if (powerUps[i]) {
+                powerUpsInfo += QString("<span style='color: #4CAF50;'>%1</span>, ")
+                    .arg(QString::fromStdString(powerUps[i]->getTipoString()));
+            }
+        }
+        powerUpsInfo.chop(2); // Eliminar la última coma y espacio
+    } else {
+        powerUpsInfo += "<span style='color: #CCCCCC;'>Ninguno</span>";
+    }
+    powerUpsInfo += "</p>";
+
+    // Agregar información sobre el Power-Up activo, si hay uno
+    if (!powerUpActivo.isEmpty()) {
+        powerUpsInfo += QString(
+            "<p style='font-size: 16px; text-align: center;'><strong>Usando Power-Up:</strong> <span style='color: #00CED1;'>%1</span></p>"
+        ).arg(powerUpActivo);
+    }
+
+    // Concatenar la información general y de power-ups
+    info += powerUpsInfo + "</div>";
+
+    // Aplicar estilo al QLabel
     informacionLabel->setText(info);
+    informacionLabel->setStyleSheet("QLabel { background-color: #2B2B2B; color: #FFFFFF; border-radius: 10px; padding: 15px; }");
+    informacionLabel->setAlignment(Qt::AlignCenter);
 }
+void MainWindow::setPowerUpActivo(const QString& powerUp) {
+    powerUpActivo = powerUp;
+    actualizarInformacionJuego(gameManager->getJugadorActual(), 300); // Asegurar que se actualice la interfaz
+}
+
+void MainWindow::limpiarPowerUpActivo() {
+    powerUpActivo = ""; // Limpiar el power-up activo
+    actualizarInformacionJuego(gameManager->getJugadorActual(), 300); // Actualizar la interfaz
+}
+
 
 /**
  * Inicializa el mapa dibujando cada celda.
@@ -88,7 +136,7 @@ void MainWindow::inicializarMapa(Mapa* mapa)
                     }
                     // Crear un fondo verde detrás del tanque
                     QGraphicsRectItem* background = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
-                    background->setBrush(Qt::green);
+                    background->setBrush(QColor(119, 178, 85));
                     background->setPen(Qt::NoPen);
 
                     // Crear un item gráfico para la imagen del tanque y colocarlo encima del fondo
@@ -98,30 +146,35 @@ void MainWindow::inicializarMapa(Mapa* mapa)
                     scene->addItem(tanqueItem);
                 }
             }
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+            {
+                // Usar imagen para Indestructible
+                QPixmap pixmap(":/resources/obstaculo.jpeg");
+                QGraphicsPixmapItem* obstaculoItem = new QGraphicsPixmapItem(pixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+                obstaculoItem->setPos(j * cellSize, i * cellSize);
+                scene->addItem(obstaculoItem);
+            }
             else
             {
                 // Crear una celda normal usando QGraphicsRectItem
                 QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
                 cell->setPen(Qt::NoPen); // Remover bordes para las celdas normales
 
-                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
                 {
-                    cell->setBrush(Qt::darkGray);
-                }
-                else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
-                {
-                    cell->setBrush(Qt::green);
+                    cell->setBrush(QColor(119, 178, 85));
                 }
             }
         }
     }
 }
 
+
 void MainWindow::pintarBala(int x, int y, int oldX, int oldY){
     int cellSize = 50;
-    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize + cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize + cellSize/4, cellSize/4, cellSize/4);
     cell2->setBrush(Qt::magenta);
-    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize + cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize + cellSize/4, cellSize/4, cellSize/4);
     cell->setBrush(Qt::black);
 
     forzarActualizacion();
@@ -168,7 +221,7 @@ void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
 
                     // Crear un fondo verde detrás del tanque
                     QGraphicsRectItem* background = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
-                    background->setBrush(Qt::green);
+                    background->setBrush(QColor(119, 178, 85));
                     background->setPen(Qt::NoPen);
 
                     // Crear un item gráfico para la imagen del tanque y colocarlo encima del fondo
@@ -178,19 +231,23 @@ void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
                     scene->addItem(tanqueItem);
                 }
             }
+            // Verificar si es un objeto Indestructible y agregar imagen
+            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+            {
+                QPixmap pixmap(":/resources/obstaculo.jpeg");
+                QGraphicsPixmapItem* obstaculoItem = new QGraphicsPixmapItem(pixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+                obstaculoItem->setPos(j * cellSize, i * cellSize);
+                scene->addItem(obstaculoItem);
+            }
             else
             {
                 // Dibujar las celdas normales
                 QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
                 cell->setPen(Qt::NoPen);
 
-                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
                 {
-                    cell->setBrush(Qt::darkGray);
-                }
-                else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
-                {
-                    cell->setBrush(Qt::green);
+                    cell->setBrush(QColor(119, 178, 85));
                 }
             }
         }
@@ -200,6 +257,7 @@ void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
     view->update();
     scene->update();
 }
+
 
 /**
  * Fuerza la actualización de la vista y la escena.
@@ -239,5 +297,16 @@ void MainWindow::mousePressEvent(QMouseEvent* event)
         {
             emit tanqueSeleccionadoSignal(x, y);
         }
+    }
+}
+/**
+ * Maneja los eventos de teclas para activar power-ups.
+ * @param event Evento de la tecla presionada.
+ */
+void MainWindow::keyPressEvent(QKeyEvent* event)
+{
+    if (event->key() == Qt::Key_Shift) // Detectar la tecla "Shift"
+    {
+        emit usarPowerUpSignal(); // Emitir la señal para usar el power-up
     }
 }

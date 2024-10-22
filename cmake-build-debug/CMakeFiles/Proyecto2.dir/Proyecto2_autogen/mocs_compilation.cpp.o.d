@@ -292,6 +292,10 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Mapa/../Pathfinding/Ruta.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/Jugador.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/PowerUp.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Tanque.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Game/../Objetos/Objeto.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/MainWindow.h \
@@ -349,6 +353,9 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Mapa/Mapa.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/GameManager.h \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/../../../Game/../Interfaz/../Game/../Mapa/Mapa.h \
@@ -366,9 +373,6 @@ CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o: \
  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/GV5D4H6SKQ/../../../Interfaz/StartWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \

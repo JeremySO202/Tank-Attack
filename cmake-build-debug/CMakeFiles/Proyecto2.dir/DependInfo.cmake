@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp" "CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp" "CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp" "CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.o.d"
+  "/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp" "CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp" "CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp" "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d"
   "/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp" "CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o" "gcc" "CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o.d"
