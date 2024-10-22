@@ -1,9 +1,9 @@
 CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

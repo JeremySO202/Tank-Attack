@@ -3,13 +3,13 @@
 //
 #include "MainWindow.h"
 #include <QGraphicsRectItem>
+#include <QGraphicsPixmapItem>
 #include <QBrush>
 #include <QMouseEvent>
 #include <QTimer>
 #include <QVBoxLayout>
 #include "../Objetos/Indestructible.h"
 #include "../Objetos/Suelo.h"
-
 #include "../Objetos/Tanque.h"
 
 /**
@@ -25,6 +25,7 @@ MainWindow::MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent)
     scene = new QGraphicsScene(this);
     view = new QGraphicsView(scene, this);
     informacionLabel = new QLabel(this); // Inicializamos el label para mostrar información del juego
+
 
     QVBoxLayout* layout = new QVBoxLayout();
     layout->addWidget(view);
@@ -63,49 +64,69 @@ void MainWindow::inicializarMapa(Mapa* mapa)
     {
         for (int j = 0; j < SIZE; ++j)
         {
-            QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
-            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
-            {
-                cell->setBrush(Qt::darkGray);
-            }
-            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
-            {
-                cell->setBrush(Qt::green);
-            }
-            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
+            // Verifica si la celda es un tanque
+            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
             {
                 Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[i][j]);
                 if (tanque != nullptr)
                 {
+                    QPixmap pixmap;
                     switch (tanque->getColor())
                     {
                     case Tanque::Color::ROJO:
-                        cell->setBrush(Qt::red);
+                        pixmap = QPixmap(":/resources/red.png");
                         break;
                     case Tanque::Color::AZUL:
-                        cell->setBrush(Qt::blue);
+                        pixmap = QPixmap(":/resources/blue.png");
                         break;
                     case Tanque::Color::AMARILLO:
-                        cell->setBrush(Qt::yellow);
+                        pixmap = QPixmap(":/resources/yellow.png");
                         break;
                     case Tanque::Color::CELESTE:
-                        cell->setBrush(Qt::cyan);
+                        pixmap = QPixmap(":/resources/lightBlue.png");
                         break;
                     }
+                    // Crear un fondo verde detrás del tanque
+                    QGraphicsRectItem* background = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
+                    background->setBrush(Qt::green);
+                    background->setPen(Qt::NoPen);
+
+                    // Crear un item gráfico para la imagen del tanque y colocarlo encima del fondo
+                    QGraphicsPixmapItem* tanqueItem = new QGraphicsPixmapItem(pixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+                    tanqueItem->setPos(j * cellSize, i * cellSize);
+                    tanqueItem->setOpacity(1.0);
+                    scene->addItem(tanqueItem);
+                }
+            }
+            else
+            {
+                // Crear una celda normal usando QGraphicsRectItem
+                QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
+                cell->setPen(Qt::NoPen); // Remover bordes para las celdas normales
+
+                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+                {
+                    cell->setBrush(Qt::darkGray);
+                }
+                else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
+                {
+                    cell->setBrush(Qt::green);
                 }
             }
         }
     }
 }
+
 void MainWindow::pintarBala(int x, int y, int oldX, int oldY){
     int cellSize = 50;
-    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize+ cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell2 = scene->addRect(oldX * cellSize + cellSize/4, oldY * cellSize + cellSize/4, cellSize/2, cellSize/2);
     cell2->setBrush(Qt::magenta);
-    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize+ cellSize/4, cellSize/2, cellSize/2);
+    QGraphicsRectItem* cell = scene->addRect(x * cellSize + cellSize/4, y * cellSize + cellSize/4, cellSize/2, cellSize/2);
     cell->setBrush(Qt::black);
 
     forzarActualizacion();
 }
+
 /**
  * Actualiza la posición del tanque en el mapa.
  * @param x Coordenada x.
@@ -122,42 +143,54 @@ void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
     {
         for (int j = 0; j < SIZE; ++j)
         {
-            QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
-
-            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
-            {
-                cell->setBrush(Qt::darkGray);
-            }
-            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
-            {
-                cell->setBrush(Qt::green);
-            }
-            else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
+            // Verificar si es un tanque y agregar imagen
+            if (typeid(*mapa->matrizMapa[i][j]) == typeid(Tanque))
             {
                 Tanque* tanque = dynamic_cast<Tanque*>(mapa->matrizMapa[i][j]);
                 if (tanque != nullptr)
                 {
-                    QColor color = Qt::blue; // Color por defecto
-
-                    // Selecciona el color del tanque según su tipo
+                    QPixmap pixmap;
                     switch (tanque->getColor())
                     {
                     case Tanque::Color::ROJO:
-                        color = Qt::red;
+                        pixmap = QPixmap(":/resources/red.png");
                         break;
                     case Tanque::Color::AZUL:
-                        color = Qt::blue;
+                        pixmap = QPixmap(":/resources/blue.png");
                         break;
                     case Tanque::Color::AMARILLO:
-                        color = Qt::yellow;
+                        pixmap = QPixmap(":/resources/yellow.png");
                         break;
                     case Tanque::Color::CELESTE:
-                        color = Qt::cyan;
+                        pixmap = QPixmap(":/resources/lightBlue.png");
                         break;
                     }
 
-                    // Dibujar el tanque con el color correspondiente
-                    cell->setBrush(color);
+                    // Crear un fondo verde detrás del tanque
+                    QGraphicsRectItem* background = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
+                    background->setBrush(Qt::green);
+                    background->setPen(Qt::NoPen);
+
+                    // Crear un item gráfico para la imagen del tanque y colocarlo encima del fondo
+                    QGraphicsPixmapItem* tanqueItem = new QGraphicsPixmapItem(pixmap.scaled(cellSize, cellSize, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+                    tanqueItem->setPos(j * cellSize, i * cellSize);
+                    tanqueItem->setOpacity(1.0);
+                    scene->addItem(tanqueItem);
+                }
+            }
+            else
+            {
+                // Dibujar las celdas normales
+                QGraphicsRectItem* cell = scene->addRect(j * cellSize, i * cellSize, cellSize, cellSize);
+                cell->setPen(Qt::NoPen);
+
+                if (typeid(*mapa->matrizMapa[i][j]) == typeid(Indestructible))
+                {
+                    cell->setBrush(Qt::darkGray);
+                }
+                else if (typeid(*mapa->matrizMapa[i][j]) == typeid(Suelo))
+                {
+                    cell->setBrush(Qt::green);
                 }
             }
         }
@@ -201,8 +234,6 @@ void MainWindow::mousePressEvent(QMouseEvent* event)
         {
             emit disparoSeleccionadoSignal(x, y);
             return;
-        }
-        {
         }
         if (typeid(*mapa->matrizMapa[y][x]) == typeid(Tanque))
         {

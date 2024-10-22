@@ -38,12 +38,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o"
   "CMakeFiles/Proyecto2.dir/Pathfinding/Ruta.cpp.o.d"
+  "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+  "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/main.cpp.o"
   "CMakeFiles/Proyecto2.dir/main.cpp.o.d"
   "Proyecto2"
   "Proyecto2.pdb"
+  "Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

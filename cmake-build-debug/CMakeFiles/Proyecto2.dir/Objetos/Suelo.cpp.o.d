@@ -1,8 +1,8 @@
 CMakeFiles/Proyecto2.dir/Objetos/Suelo.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

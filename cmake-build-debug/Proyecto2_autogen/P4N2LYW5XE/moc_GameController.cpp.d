@@ -1,12 +1,12 @@
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp: /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
-  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
+/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp: /home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
+  /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+  /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

@@ -1,65 +1,66 @@
 Proyecto2_autogen/timestamp: \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/CMakeLists.txt \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/CMakeLists.txt \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/main.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/resources/resources.qrc \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
 	/usr/include/assert.h \
@@ -465,4 +466,4 @@ Proyecto2_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake

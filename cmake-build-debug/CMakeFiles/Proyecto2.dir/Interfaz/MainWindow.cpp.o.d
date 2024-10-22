@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -343,19 +343,20 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/Jugador.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Objetos/Objeto.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsPixmapItem \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QBrush \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent \
@@ -376,7 +377,7 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Suelo.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Tanque.h
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Suelo.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Tanque.h
