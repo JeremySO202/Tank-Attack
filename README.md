@@ -1,6 +1,6 @@
 # Tank Attack!
 
-Este proyecto es sobre un juego de estrategia por turnos que estoy desarrollando en C++ llamado 'Tank Attack!'. En el juego, los jugadores controlan tanques en un mapa y usan diferentes algoritmos de pathfinding y power-ups para moverse, atacar, y vencer al oponente. Cuenta con interfaz gráfica usando biblioteca Qt para que se vea más interactivo.
+Este proyecto es sobre un juego de estrategia por turnos desarrollado en C++ llamado 'Tank Attack!'. En el juego, los jugadores controlan tanques en un mapa y usan diferentes algoritmos de pathfinding y power-ups para moverse, atacar, y vencer al oponente. Cuenta con interfaz gráfica usando biblioteca Qt para que se vea más interactivo.
 
 ## Tabla de Contenidos
 1. [Descripción del Proyecto](#descripción-del-proyecto)
