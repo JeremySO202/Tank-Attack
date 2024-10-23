@@ -44,8 +44,6 @@ add_executable(Proyecto2 main.cpp
         Interfaz/StartWindow.h
         Pathfinding/RandomMovement.cpp
         Pathfinding/RandomMovement.h
-        Game/TurnoManager.cpp
-        Game/TurnoManager.h
         Pathfinding/LineaVista.cpp
         Pathfinding/LineaVista.h
         resources/resources.qrc

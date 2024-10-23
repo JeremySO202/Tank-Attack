@@ -88,11 +88,6 @@ int Jugador::getTanquesVivos()
     return cant;
 }
 
-void Jugador::setNumTanques(int n)
-{
-    numTanques = n;
-}
-
 /**
  * Obtiene el ID del jugador.
  * @return ID del jugador.
@@ -114,23 +109,6 @@ void Jugador::agregarPowerUp(PowerUp* powerUp) {
         std::cout << "Power-Up añadido: " << powerUp->getTipoString() << std::endl;
     } else {
         std::cout << "No se puede agregar más power-ups. Límite alcanzado." << std::endl;
-    }
-}
-
-void Jugador::usarPowerUp() {
-    if (powerUpCount > 0) {
-        PowerUp* powerUp = powerUpList[0];
-        powerUp->aplicar(this);
-        delete powerUp;
-
-        // Desplazar los restantes hacia adelante
-        for (int i = 1; i < powerUpCount; ++i) {
-            powerUpList[i - 1] = powerUpList[i];
-        }
-
-        powerUpCount--;
-    } else {
-        std::cout << "No hay power-ups para usar." << std::endl;
     }
 }
 
@@ -166,13 +144,6 @@ bool Jugador::getPrecisionMovimiento() const {
 bool Jugador::getPrecisionAtaque() const {
     return precisionAtaque;
 }
-
-bool Jugador::getPoderAtaque() const {
-    return poderAtaque;
-}
-
-#include "Jugador.h"
-#include <iostream>
 
 void Jugador::aplicarPowerUp() {
     if (powerUpCount > 0) {

@@ -36,12 +36,10 @@ public:
     Tanque* getTanqueSeleccionado() const;
     int getCantidadTanques();
     int getTanquesVivos();
-    void setNumTanques(int n);
     int getId() const;
     void limpiarSeleccion();
 
     void agregarPowerUp(PowerUp* powerUp);
-    void usarPowerUp();
     bool tienePowerUps() const;
     PowerUp* const* getPowerUps(int& count) const;
     void aplicarPowerUp();
@@ -52,7 +50,7 @@ public:
     void setNumTurnosExtra(int turnos);
     bool getPrecisionMovimiento() const;
     bool getPrecisionAtaque() const;
-    bool getPoderAtaque() const;
+
 };
 
 #endif // JUGADOR_H
