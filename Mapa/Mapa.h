@@ -14,15 +14,16 @@ const int DESP_DIAGO = 14;
 
 
 class Mapa {
-private:
-    void inicializaMatrizAdyacencia();
-    void cargaMapaAleatorio();
+
 
 public:
     int matrizAdyacencia[GRAPHSIZE][GRAPHSIZE] = {0};
     Objeto *matrizMapa[SIZE][SIZE];
 
     Mapa();
+
+    void inicializaMatrizAdyacencia();
+    void cargaMapaAleatorio();
 
     void moverTanque(Ruta *ruta);
     int coordenadaANodo(int x, int y);

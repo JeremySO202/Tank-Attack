@@ -21,6 +21,7 @@ private:
 
 public:
     GameController(QObject* parent = nullptr);
+    void mostrarMensaje(int ganador);
     void iniciarJuego();
 
 private slots:

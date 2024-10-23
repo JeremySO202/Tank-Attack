@@ -7,10 +7,12 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
+  /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
   /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
@@ -335,7 +337,10 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -346,7 +351,9 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
@@ -377,6 +384,7 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
@@ -386,8 +394,10 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
@@ -405,16 +415,30 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: /home/jeremy/Codigos/Tarea/D
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
@@ -4224,25 +4248,7 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
-
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h:
 
@@ -4254,15 +4260,11 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
-
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp:
 
@@ -4298,9 +4300,23 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
 
@@ -4333,6 +4349,8 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
 
@@ -4388,9 +4406,21 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_MainWindow.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
 
 /usr/include/c++/13/iomanip:
 
@@ -4482,16 +4512,6 @@ Proyecto2_autogen/GV5D4H6SKQ/moc_StartWindow.cpp:
 
 /usr/include/c++/13/bits/stl_function.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
 /usr/include/c++/13/bits/std_mutex.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
@@ -4534,17 +4554,11 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/limits:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.h:
+
 /usr/include/c++/13/numbers:
-
-/usr/include/c++/13/debug/debug.h:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -4570,12 +4584,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/c++/13/bits/allocator.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
@@ -4583,10 +4591,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/ranges_base.h:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
@@ -4624,11 +4628,9 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
 
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/c++/13/bits/basic_string.h:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
@@ -4652,10 +4654,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/charconv.h:
 
-/usr/include/c++/13/bits/stl_construct.h:
-
-/usr/include/features-time64.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
@@ -4667,6 +4665,10 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
+/usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/13/cstdlib:
 
@@ -4680,6 +4682,8 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/assert.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
 /usr/include/c++/13/clocale:
@@ -4687,6 +4691,46 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/ranges_algo.h:
 
 /usr/include/c++/13/bits/enable_special_members.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
+
+/usr/include/c++/13/bits/ranges_util.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp:
 
@@ -4699,16 +4743,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/exception:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/c++/13/tr1/ell_integral.tcc:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
 
@@ -4734,17 +4768,17 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/codecvt.h:
 
+/usr/include/c++/13/debug/debug.h:
+
+/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/ios:
 
 /usr/include/c++/13/ratio:
-
-/usr/include/c++/13/list:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h:
 
@@ -4802,8 +4836,6 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
-
 /usr/include/c++/13/atomic:
 
 /usr/include/c++/13/bits/locale_conv.h:
@@ -4834,6 +4866,22 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/optional:
 
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/usr/include/c++/13/bits/max_size_type.h:
+
+/usr/include/c++/13/stdlib.h:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
@@ -4841,6 +4889,12 @@ Proyecto2_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/libintl.h:
 
@@ -4852,21 +4906,11 @@ Proyecto2_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
-/usr/include/c++/13/bits/utility.h:
+/usr/include/c++/13/list:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
+/usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/13/bits/max_size_type.h:
-
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/c++/13/bits/parse_numbers.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -4894,6 +4938,8 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 
 /usr/include/c++/13/span:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
 /usr/include/c++/13/ctime:
 
 /usr/include/c++/13/sstream:
@@ -4909,10 +4955,6 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
 
 /usr/include/c++/13/system_error:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
 
 /usr/include/c++/13/tuple:
 
@@ -5082,9 +5124,9 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h:
 
 /usr/include/c++/13/bits/atomic_wait.h:
 
@@ -5144,10 +5186,6 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:
@@ -5170,6 +5208,10 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
 
 /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp:
@@ -5177,15 +5219,3 @@ Proyecto2_autogen/P4N2LYW5XE/moc_GameController.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
-
-/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:

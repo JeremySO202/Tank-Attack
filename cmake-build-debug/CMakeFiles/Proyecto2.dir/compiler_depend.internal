@@ -8,10 +8,12 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Game/GameManager.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Game/Jugador.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.h
+ /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Game/GameController.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Game/GameManager.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Game/Jugador.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/MainWindow.h
+ /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Interfaz/StartWindow.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Objetos/Objeto.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Pathfinding/Ruta.h
  /home/jeremy/Codigos/Tarea/Datos 2/Tank-Attack/Mapa/Mapa.h
@@ -336,7 +338,10 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -347,7 +352,9 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
@@ -378,6 +385,7 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
@@ -387,8 +395,10 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
@@ -406,16 +416,30 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsScene
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
