@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-daaf7f4f6198d2443adb5a3321613858 CMakeFiles/Proyecto2_autogen
-3b9bc686156b7c2738e052e83a19b0e6 Proyecto2_autogen/timestamp
