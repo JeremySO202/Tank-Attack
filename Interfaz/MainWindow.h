@@ -30,7 +30,8 @@ public:
     explicit MainWindow(Mapa* mapa, GameManager* gameManager, QWidget* parent = nullptr);
     void inicializarMapa(Mapa* mapa);
     void pintarBala(int x, int y, int oldX, int oldY);
-    void actualizarTanque(int x, int y);
+    void pintarRuta(Ruta* ruta);
+    void actualizarTanque();
     void forzarActualizacion();
     void actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRestante);
     void setPowerUpActivo(const QString& powerUp);

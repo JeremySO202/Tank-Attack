@@ -45,11 +45,11 @@ void Mapa::inicializaMatrizAdyacencia()
         {
             for (int d = 0; d < 8; ++d)
             {
-                if (isValid(j,i))
+                if (j < SIZE && j>=0 && i < SIZE && i>=0 && typeid(*matrizMapa[i][j])!=typeid(Indestructible))
                 {
                     int newX = j + dirX[d];
                     int newy = i + dirY[d];
-                    if (isValid(newX, newy))
+                    if (newy < SIZE && newy>=0 && newX < SIZE && newX>=0 && typeid(*matrizMapa[newy][newX])!=typeid(Indestructible))
                     {
                         if (d == 0 || d== 2 || d == 5 || d == 7)
                             matrizAdyacencia[coordenadaANodo(j,i)][coordenadaANodo(newX, newy)] = DESP_DIAGO; //Desplazamiento diagonal

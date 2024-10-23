@@ -180,12 +180,25 @@ void MainWindow::pintarBala(int x, int y, int oldX, int oldY){
     forzarActualizacion();
 }
 
+void MainWindow::pintarRuta(Ruta *ruta){
+    int cellSize = 50;
+    Nodo * nodo = ruta->inicio;
+
+    while (nodo->next != nullptr)
+    {
+        QGraphicsRectItem* cell2 = scene->addRect(nodo->x * cellSize , nodo->y * cellSize, cellSize, cellSize);
+        cell2->setBrush(Qt::magenta);
+        nodo = nodo->next;
+    }
+    forzarActualizacion();
+}
+
 /**
  * Actualiza la posición del tanque en el mapa.
  * @param x Coordenada x.
  * @param y Coordenada y.
  */
-void MainWindow::actualizarTanque(int nuevoX, int nuevoY)
+void MainWindow::actualizarTanque()
 {
     int cellSize = 50;
 

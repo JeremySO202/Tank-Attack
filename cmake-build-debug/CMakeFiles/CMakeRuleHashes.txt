@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+daaf7f4f6198d2443adb5a3321613858 CMakeFiles/Proyecto2_autogen
+413c718ffdfcd325ea50acfbba4dd2b9 Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp
+3b9bc686156b7c2738e052e83a19b0e6 Proyecto2_autogen/timestamp
