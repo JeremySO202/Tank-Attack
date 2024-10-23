@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -346,19 +346,19 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/Jugador.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/PowerUp.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/PowerUp.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsRectItem \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -386,7 +386,7 @@ CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Suelo.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Objetos/Tanque.h
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Indestructible.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Suelo.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Objetos/Tanque.h

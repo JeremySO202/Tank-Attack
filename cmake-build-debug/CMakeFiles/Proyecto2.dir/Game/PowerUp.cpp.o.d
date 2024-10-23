@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/PowerUp.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -122,7 +122,7 @@ CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/bits/ranges_util.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
@@ -130,8 +130,8 @@ CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \

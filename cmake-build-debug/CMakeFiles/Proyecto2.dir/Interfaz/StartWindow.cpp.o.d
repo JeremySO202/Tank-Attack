@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -348,20 +348,20 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/GameController.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/GameController.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/Jugador.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Game/PowerUp.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Interfaz/MainWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
@@ -378,11 +378,11 @@ CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Interfaz/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/Jugador.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/../Game/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Interfaz/../Game/../Game/GameManager.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QFont \

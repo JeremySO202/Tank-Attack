@@ -1,11 +1,11 @@
 CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
  /usr/include/c++/13/queue /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -66,7 +66,7 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
@@ -134,8 +134,8 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
@@ -173,7 +173,7 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -295,8 +295,8 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/format \
  /usr/include/c++/13/charconv /usr/include/c++/13/optional \
  /usr/include/c++/13/span /usr/include/c++/13/variant \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/Jugador.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/MainWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -360,7 +360,7 @@ CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Suelo.h
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Suelo.h

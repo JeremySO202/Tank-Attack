@@ -1,146 +1,145 @@
 Proyecto2_autogen/timestamp: \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/CMakeLists.txt \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameManager.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/Jugador.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/PowerUp.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/PowerUp.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/TurnoManager.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/MainWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Interfaz/StartWindow.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Mapa/Mapa.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Indestructible.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Objeto.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Suelo.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Objetos/Tanque.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Astar.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Bfs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Dijkstra.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/ListaPrioridad.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/RandomMovement.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/main.cpp \
-	/home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/resources/resources.qrc \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeUnixFindMake.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Determine-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/CMakeLists.txt \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake \
+	/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h \
+	/home/mvasquezr/DatosII/Tank-Attack/main.cpp \
+	/home/mvasquezr/DatosII/Tank-Attack/resources/resources.qrc \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake \
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
 	/usr/include/assert.h \
@@ -551,4 +550,4 @@ Proyecto2_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake
+	/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake

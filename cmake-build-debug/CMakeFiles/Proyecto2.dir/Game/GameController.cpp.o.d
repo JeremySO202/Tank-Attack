@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/GameController.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -285,17 +285,17 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/format \
  /usr/include/c++/13/charconv /usr/include/c++/13/optional \
  /usr/include/c++/13/span /usr/include/c++/13/variant \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/Jugador.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/PowerUp.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/MainWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/PowerUp.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -359,20 +359,20 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Game/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Game/Jugador.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Game/GameManager.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/Bfs.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/Astar.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/Dijkstra.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/RandomMovement.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Suelo.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/Jugador.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Game/GameManager.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Bfs.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Astar.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/Dijkstra.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/RandomMovement.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Suelo.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Objetos/Objeto.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
@@ -380,7 +380,7 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/StartWindow.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/StartWindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
@@ -399,5 +399,5 @@ CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Interfaz/../Game/GameController.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Game/../Pathfinding/LineaVista.h
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Interfaz/../Game/GameController.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Game/../Pathfinding/LineaVista.h

@@ -186,8 +186,8 @@ void MainWindow::pintarRuta(Ruta *ruta){
 
     while (nodo->next != nullptr)
     {
-        QGraphicsRectItem* cell2 = scene->addRect(nodo->x * cellSize + cellSize/4 , nodo->y * cellSize + cellSize /4, cellSize/2, cellSize/2);
-        cell2->setBrush(Qt::magenta);
+        QGraphicsRectItem* cell2 = scene->addRect(nodo->x * cellSize + cellSize/4 , nodo->y * cellSize + cellSize /4, cellSize/4, cellSize/4);
+        cell2->setBrush(Qt::lightGray);
         nodo = nodo->next;
     }
     forzarActualizacion();

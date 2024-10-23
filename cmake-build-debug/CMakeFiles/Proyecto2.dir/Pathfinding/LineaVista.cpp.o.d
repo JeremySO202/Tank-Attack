@@ -1,13 +1,13 @@
 CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o: \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.cpp \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp \
  /usr/include/stdc-predef.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/LineaVista.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Objetos/Tanque.h \
- /home/jeremy/Codigos/Tarea/Datos\ 2/Tank-Attack/Pathfinding/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/Mapa.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Objetos/Objeto.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Mapa/../Pathfinding/Ruta.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Objetos/Tanque.h \
+ /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/../Objetos/Objeto.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/exception.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
