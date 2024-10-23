@@ -30,7 +30,11 @@ void TurnoManager::iniciarTurno() {
  * Pasa al siguiente turno.
  */
 void TurnoManager::siguienteTurno() {
-    jugadorActual = (jugadorActual + 1) % 2;
+    if (jugadores[jugadorActual]->numTurnosExtra > 0) {
+        jugadores[jugadorActual]->numTurnosExtra--;
+    } else {
+        jugadorActual = (jugadorActual + 1) % 2;
+    }
     iniciarTurno();
 }
 

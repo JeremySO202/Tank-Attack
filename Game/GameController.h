@@ -18,16 +18,22 @@ private:
     Mapa* mapa;
     MainWindow* mainWindow;
     GameManager* gameManager;
+    int tiempoRestante;
+
 
 public:
     GameController(QObject* parent = nullptr);
+
     void mostrarMensaje(int ganador);
+
+    void generarPowerUpAleatorio(Jugador* jugador);
     void iniciarJuego();
 
 private slots:
     void onTanqueSeleccionado(int x, int y);
     void onDestinoSeleccionado(int x, int y);
     void onDisparoSeleccionado(int x, int y);
+    void onUsarPowerUp();
 };
 
 #endif // GAMECONTROLLER_H

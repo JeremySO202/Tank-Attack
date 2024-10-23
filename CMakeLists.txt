@@ -48,6 +48,9 @@ add_executable(Proyecto2 main.cpp
         Game/TurnoManager.h
         Pathfinding/LineaVista.cpp
         Pathfinding/LineaVista.h
+        resources/resources.qrc
+        Game/PowerUp.cpp
+        Game/PowerUp.h
 )
 target_link_libraries(Proyecto2
         Qt5::Core
