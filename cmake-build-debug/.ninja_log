@@ -1,8 +1,0 @@
-# ninja log v6
-1	34	1726863531351572302	Proyecto2_autogen/timestamp	5394785bfaafd409
-1	34	1726863531351572302	Proyecto2_autogen/mocs_compilation.cpp	5394785bfaafd409
-1	34	1726863531351572302	/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/timestamp	5394785bfaafd409
-1	34	1726863531351572302	/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp	5394785bfaafd409
-34	58	1726863531357572307	CMakeFiles/Proyecto2.dir/Proyecto2_autogen/mocs_compilation.cpp.o	90d8b9f7d621fcec
-34	4246	1726863531358572309	CMakeFiles/Proyecto2.dir/main.cpp.o	e6bea7d27a1131cd
-4247	4747	1726863535570576455	Proyecto2	ab10cfa8f709e62a

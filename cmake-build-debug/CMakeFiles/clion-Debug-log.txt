@@ -1,4 +1,0 @@
-/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -S /home/mvasquezr/DatosII/Tank-Attack -B /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug
