@@ -1,6 +1,6 @@
 # Tank Attack!
 
-Este proyecto es sobre un juego de estrategia por turnos desarrollado en C++ llamado 'Tank Attack!'. En el juego, los jugadores controlan tanques en un mapa y usan diferentes algoritmos de pathfinding y power-ups para moverse, atacar, y vencer al oponente. Cuenta con interfaz gráfica usando biblioteca Qt para que se vea más interactivo.
+'Tank Attack!' es un juego de estrategia por turnos desarrollado en C++, donde los jugadores controlan tanques en un mapa. Usando algoritmos de pathfinding y power-ups, deben moverse, atacar y vencer al oponente. El juego incluye una interfaz gráfica creada con Qt para una experiencia más interactiva.
 
 ## Tabla de Contenidos
 1. [Descripción del Proyecto](#descripción-del-proyecto)
@@ -9,18 +9,18 @@ Este proyecto es sobre un juego de estrategia por turnos desarrollado en C++ lla
 
 ## Descripción del Proyecto
 
-'Tank Attack!' es un juego de estrategia por turnos donde cada jugador controla varios tanques. El objetivo es usar diferentes algoritmos de movimiento y power-ups estratégicos para derrotar a los tanques del oponente. Los tanques se mueven utilizando algoritmos como BFS, Dijkstra, o movimientos aleatorios, dependiendo de la situación, y hay power-ups que mejoran las habilidades de los tanques. El proyecto tiene una interfaz gráfica hecha con Qt para mostrar el mapa, los tanques y permitir que los jugadores interactúen fácilmente.
+'Tank Attack!' ofrece un entorno de estrategia por turnos en el que cada jugador controla múltiples tanques. El objetivo es emplear algoritmos de movimiento y power-ups para destruir los tanques enemigos. Los tanques se desplazan utilizando BFS, Dijkstra, o movimientos aleatorios según las circunstancias. Además, la interfaz gráfica permite una interacción fácil y visualmente atractiva, mostrando el mapa, los tanques y sus acciones.
 
 ## Funcionalidades
 
-- **Algoritmos de Pathfinding**: Implementación de algoritmos como Dijkstra, BFS y movimientos aleatorios para que los tanques puedan moverse por el mapa. Así como A* para los disparos.
-- **Interfaz Gráfica**: Desarrollada con Qt, muestra el mapa, los tanques, los turnos, y permite que los jugadores interactúen fácilmente.
-- **Power-Ups**: Los jugadores pueden recoger y usar power-ups que les dan ventajas, como movimientos más precisos, turnos adicionales, o ataques más fuertes.
-- **Gestión de Turnos**: Un sistema de turnos que controla cuándo le toca jugar a cada jugador y asegura que se sigan las reglas del juego.
+- **Algoritmos de Pathfinding**: Implementación de algoritmos como Dijkstra, BFS y movimientos aleatorios para navegar el mapa, además de A* para guiar los disparos.
+- **Interfaz Gráfica**: Desarrollada con Qt, facilita la visualización del mapa, los tanques, y el sistema de turnos, permitiendo a los jugadores interactuar de forma intuitiva.
+- **Power-Ups**: Los jugadores pueden recolectar power-ups que otorgan ventajas estratégicas, como movimientos más precisos, turnos extra, o mayor poder de ataque.
+- **Gestión de Turnos**: Un sistema que coordina los turnos de cada jugador, asegurando el cumplimiento de las reglas del juego.
 
 ## Instalación
 
-> **Nota**: Este proyecto se desarrolló en Linux, utilizado Clion.
+> **Nota**: Este proyecto se desarrolló en Linux, utilizando Clion.
 
 Para instalar y ejecutar el juego, sigue estos pasos:
 
@@ -38,7 +38,7 @@ Para instalar y ejecutar el juego, sigue estos pasos:
     sudo apt-get install cmake qt5-default g++
     ```
 
-    - En Windows, puedes descargar CMake y Qt desde [CMake](https://cmake.org/download/) y [Qt](https://www.qt.io/download). Instálalos junto con un compilador como MinGW.
+    - En Windows, descarga e instala CMake y Qt desde [CMake](https://cmake.org/download/) y [Qt](https://www.qt.io/download), junto con un compilador como MinGW.
 
 3. Genera los archivos de compilación con CMake:
 
@@ -54,3 +54,4 @@ Para instalar y ejecutar el juego, sigue estos pasos:
     ```bash
     make
     ```
+
