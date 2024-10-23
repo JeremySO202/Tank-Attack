@@ -12,7 +12,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <QMessageBox>
 
+#include "../Interfaz/StartWindow.h"
 #include "../Pathfinding/LineaVista.h"
 
 /**
@@ -41,6 +43,8 @@ GameController::GameController(QObject* parent) : QObject(parent)
     mapa->matrizMapa[1][3] = tanqueAzul1;
     mapa->matrizMapa[1][4] = tanqueAzul2;
 
+    mapa->inicializaMatrizAdyacencia();
+
     Tanque* tanqueAmarillo1 = new Tanque(13, 13, Tanque::Color::AMARILLO);
     Tanque* tanqueAmarillo2 = new Tanque(12, 13, Tanque::Color::AMARILLO);
     Tanque* tanqueCeleste1 = new Tanque(11, 13, Tanque::Color::CELESTE);
@@ -68,6 +72,25 @@ GameController::GameController(QObject* parent) : QObject(parent)
     connect(mainWindow, &MainWindow::usarPowerUpSignal, this, &GameController::onUsarPowerUp);
 }
 
+void GameController::mostrarMensaje(int ganador) {
+    QMessageBox msgBox;
+    msgBox.setText("Fin del juego.");
+    msgBox.setInformativeText("El jugador " + QString::number(ganador) + " ha perdido.");
+    msgBox.setStandardButtons(QMessageBox::Ok);
+    msgBox.setDefaultButton(QMessageBox::Ok);
+
+    int result = msgBox.exec();
+
+    if (result == QMessageBox::Ok) {
+
+        mainWindow->close();
+
+        StartWindow *start_window = new StartWindow();
+        start_window->show();
+
+    }
+}
+
 /**
  * @brief Muestra la ventana principal y actualiza el estado inicial del mapa.
  */
@@ -93,8 +116,7 @@ void GameController::iniciarJuego()
         {
             timer->stop();
             int ganador = gameManager->obtenerGanador();
-            std::cout << "El jugador " << (ganador + 1) << " ha perdido." <<std::endl;
-            std::cout << "El tiempo se ha agotado. Fin del juego." << std::endl;
+            mostrarMensaje(ganador+1);
         }
     });
     timer->start(1000); // Cuenta regresiva cada segundo
@@ -105,6 +127,7 @@ void GameController::iniciarJuego()
     std::cout << "Mapa inicial con tanques añadidos:" << std::endl;
     mapa->printMapa();
 }
+
 
 
 /**

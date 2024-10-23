@@ -5,6 +5,8 @@
 // RandomMovement.cpp
 #include "RandomMovement.h"
 
+#include "LineaVista.h"
+
 /**
  * Constructor que inicializa el generador de números aleatorios.
  */

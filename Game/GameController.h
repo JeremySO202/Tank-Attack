@@ -23,6 +23,9 @@ private:
 
 public:
     GameController(QObject* parent = nullptr);
+
+    void mostrarMensaje(int ganador);
+
     void generarPowerUpAleatorio(Jugador* jugador);
     void iniciarJuego();
 

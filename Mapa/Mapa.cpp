@@ -115,9 +115,7 @@ void Mapa::printMapa()
 Mapa::Mapa()
 {
     cargaMapaAleatorio();
-    inicializaMatrizAdyacencia();
     printMapa();
-    std::cout << "Inicializando matriz adyacencia" << std::endl;
 }
 
 /**
