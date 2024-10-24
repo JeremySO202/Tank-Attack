@@ -147,11 +147,10 @@ bool Jugador::getPrecisionAtaque() const {
 
 void Jugador::aplicarPowerUp() {
     if (powerUpCount > 0) {
-        PowerUp* powerUp = powerUpList[0]; // Aplicar el primer power-up de la lista
-        powerUp->aplicar(this); // Aplicar los efectos del power-up
+        PowerUp* powerUp = powerUpList[0];
+        powerUp->aplicar(this);
         std::cout << "Power-up aplicado: " << powerUp->getTipoString() << std::endl;
 
-        // Eliminar el power-up utilizado de la lista y reordenar
         for (int i = 1; i < powerUpCount; ++i) {
             powerUpList[i - 1] = powerUpList[i];
         }
@@ -160,4 +159,12 @@ void Jugador::aplicarPowerUp() {
     } else {
         std::cout << "No hay power-ups para aplicar." << std::endl;
     }
+}
+
+void Jugador::setProximoTurnoDoble(bool valor) {
+    proximoTurnoDoble = valor;
+}
+
+bool Jugador::getProximoTurnoDoble() const {
+    return proximoTurnoDoble;
 }

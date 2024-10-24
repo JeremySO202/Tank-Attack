@@ -298,8 +298,15 @@ void GameController::onDisparoSeleccionado(int x, int y)
             if (tanqueSeleccionado)
             {
                 Ruta* ruta = nullptr;
+                if (jugadorActual->getPrecisionAtaque())
+                {
+                    std::cout << "Power-Up Precisión de Ataque activado: utilizando algoritmo A*." << std::endl;
+                    Astar aStar;
+                    ruta = aStar.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
+                    jugadorActual->setPrecisionAtaque(false); // Desactivar para el siguiente turno
+                    std::cout << "Precisión de Ataque desactivada para el próximo turno." << std::endl;
+                }
 
-                // Verificar si el power-up de precisión de ataque está activo
                 if (jugadorActual->getPrecisionAtaque())
                 {
                     std::cout << "Power-Up Precisión de Ataque activado: utilizando algoritmo A*." << std::endl;
@@ -307,6 +314,7 @@ void GameController::onDisparoSeleccionado(int x, int y)
                     ruta = aStar.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
                     jugadorActual->setPrecisionAtaque(false); // Desactivar para el siguiente turno
                 }
+
                 else
                 {
                     // Usar el comportamiento normal sin power-up (linea de vista)
@@ -400,37 +408,30 @@ void GameController::onDisparoSeleccionado(int x, int y)
 /**
  * @brief Slot que maneja el uso de power-ups.
  */
-void GameController::onUsarPowerUp()
-{
+void GameController::onUsarPowerUp() {
     Jugador* jugadorActual = gameManager->getJugadorActual();
 
-    // Verificar si el jugador puede usar un Power-Up
-    if (gameManager->puedeUsarPowerUp())
-    {
+    if (gameManager->puedeUsarPowerUp()) {
         int powerUpCount = 0;
         PowerUp* const* powerUps = jugadorActual->getPowerUps(powerUpCount);
-        // Obtener el array de PowerUps y su cantidad
 
-        if (powerUpCount > 0)
-        {
-            // Activar el último Power-Up y almacenar el tipo para mostrarlo en la interfaz
+        if (powerUpCount > 0) {
             PowerUp* powerUp = powerUps[powerUpCount - 1];
+            powerUp->aplicar(jugadorActual); // Aplicar el Power-Up
             mainWindow->setPowerUpActivo(QString("Jugador %1: %2")
                                          .arg(jugadorActual->getId())
                                          .arg(QString::fromStdString(powerUp->getTipoString())));
 
-            // Gasta el turno actual y cambia al siguiente jugador
             gameManager->usarPowerUp();
+            QTimer::singleShot(4000, [=]() {
+                mainWindow->setPowerUpActivo("");
+            });
             gameManager->cambiarTurno();
             mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante);
-        }
-        else
-        {
+        } else {
             std::cout << "No hay power-ups para usar." << std::endl;
         }
-    }
-    else
-    {
+    } else {
         std::cout << "No hay power-ups disponibles para usar." << std::endl;
     }
 }
@@ -440,33 +441,38 @@ void GameController::onUsarPowerUp()
  */
 void GameController::generarPowerUpAleatorio(Jugador* jugador)
 {
-    std::cout << "Generando Power-Up para el jugador " << jugador->getId() << std::endl;
-    int randomValue = std::rand() % 4;
-    PowerUp* nuevoPowerUp = nullptr;
+    std::cout << "Intentando generar Power-Up para el jugador " << jugador->getId() << std::endl;
 
-    switch (randomValue)
-    {
-    case 0:
-        nuevoPowerUp = new DobleTurno();
-        break;
-    case 1:
-        nuevoPowerUp = new PrecisionMovimiento();
-        break;
-    case 2:
-        nuevoPowerUp = new PrecisionAtaque();
-        break;
-    case 3:
-        nuevoPowerUp = new PoderAtaque();
-        break;
-    default:
-        std::cerr << "Error: valor de Power-Up inválido" << std::endl;
+    int probabilidad = std::rand() % 100;
+    if (probabilidad >= 40) {
+        std::cout << "No se generó Power-Up para el jugador " << jugador->getId() << std::endl;
         return;
     }
 
-    if (nuevoPowerUp)
-    {
-        std::cout << "Añadiendo Power-Up " << nuevoPowerUp->getTipoString() << " al jugador " << jugador->getId() <<
-            std::endl;
+    // Generar power-up aleatorio
+    int randomValue = std::rand() % 4;
+    PowerUp* nuevoPowerUp = nullptr;
+
+    switch (randomValue) {
+        case 0:
+            nuevoPowerUp = new DobleTurno();
+        break;
+        case 1:
+            nuevoPowerUp = new PrecisionMovimiento();
+        break;
+        case 2:
+            nuevoPowerUp = new PrecisionAtaque();
+        break;
+        case 3:
+            nuevoPowerUp = new PoderAtaque();
+        break;
+        default:
+            std::cerr << "Error: valor de Power-Up inválido" << std::endl;
+        return;
+    }
+
+    if (nuevoPowerUp) {
+        std::cout << "Añadiendo Power-Up " << nuevoPowerUp->getTipoString() << " al jugador " << jugador->getId() << std::endl;
         jugador->agregarPowerUp(nuevoPowerUp);
         mainWindow->actualizarInformacionJuego(jugador, tiempoRestante);
     }

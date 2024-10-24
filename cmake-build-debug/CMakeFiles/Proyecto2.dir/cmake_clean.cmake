@@ -10,8 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto2.dir/Game/Jugador.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o"
   "CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o.d"
-  "CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o"
-  "CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o"
   "CMakeFiles/Proyecto2.dir/Interfaz/MainWindow.cpp.o.d"
   "CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o"

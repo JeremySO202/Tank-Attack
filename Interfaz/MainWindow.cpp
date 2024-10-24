@@ -77,7 +77,7 @@ void MainWindow::actualizarInformacionJuego(Jugador* jugadorActual, int tiempoRe
     // Agregar información sobre el Power-Up activo, si hay uno
     if (!powerUpActivo.isEmpty()) {
         powerUpsInfo += QString(
-            "<p style='font-size: 16px; text-align: center;'><strong>Usando Power-Up:</strong> <span style='color: #00CED1;'>%1</span></p>"
+            "<p style='font-size: 16px; text-align: center;'><strong>Aplicando Power-Up:</strong> <span style='color: #00CED1;'>%1</span></p>"
         ).arg(powerUpActivo);
     }
 

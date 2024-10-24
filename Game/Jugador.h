@@ -21,6 +21,7 @@ private:
     bool precisionMovimiento = false;
     bool precisionAtaque = false;
     bool poderAtaque = false;
+    bool proximoTurnoDoble = false;
 
 public:
     Tanque* tanques[MAX_TANQUES];
@@ -38,6 +39,8 @@ public:
     int getTanquesVivos();
     int getId() const;
     void limpiarSeleccion();
+    void setProximoTurnoDoble(bool valor);
+    bool getProximoTurnoDoble() const;
 
     void agregarPowerUp(PowerUp* powerUp);
     bool tienePowerUps() const;

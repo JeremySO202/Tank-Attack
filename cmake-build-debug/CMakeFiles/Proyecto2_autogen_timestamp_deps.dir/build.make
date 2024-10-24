@@ -66,10 +66,10 @@ include CMakeFiles/Proyecto2_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/Proyecto2_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
 CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
-CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
+CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/qt5/bin/uic
+CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 CMakeFiles/Proyecto2_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 
 Proyecto2_autogen_timestamp_deps: CMakeFiles/Proyecto2_autogen_timestamp_deps

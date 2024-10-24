@@ -333,24 +333,10 @@ CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp -o CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.s
 
-CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp
-CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o -MF CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o.d -o CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp
-
-CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp > CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.i
-
-CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mvasquezr/DatosII/Tank-Attack/Game/TurnoManager.cpp -o CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.s
-
 CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp
 CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o -MF CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o.d -o CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp
 
 CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.i: cmake_force
@@ -364,7 +350,7 @@ CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.s: cmake_force
 CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp
 CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o -MF CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o.d -o CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp
 
 CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.i: cmake_force
@@ -378,7 +364,7 @@ CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.s: cmake_force
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/Proyecto2.dir/flags.make
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o: Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o -MF CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o.d -o CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o -c /home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp
 
 CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
@@ -409,7 +395,6 @@ Proyecto2_OBJECTS = \
 "CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o" \
-"CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o" \
 "CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
@@ -435,7 +420,6 @@ Proyecto2: CMakeFiles/Proyecto2.dir/Game/GameManager.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Game/GameController.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Interfaz/StartWindow.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/RandomMovement.cpp.o
-Proyecto2: CMakeFiles/Proyecto2.dir/Game/TurnoManager.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Pathfinding/LineaVista.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Game/PowerUp.cpp.o
 Proyecto2: CMakeFiles/Proyecto2.dir/Proyecto2_autogen/3YJK5W5UP7/qrc_resources.cpp.o
@@ -444,7 +428,7 @@ Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 Proyecto2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 Proyecto2: CMakeFiles/Proyecto2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Proyecto2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Proyecto2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

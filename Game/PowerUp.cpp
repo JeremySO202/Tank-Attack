@@ -28,9 +28,10 @@ std::string PowerUp::getTipoString() const {
  * Aplica el power-up Doble Turno al jugador.
  */
 void DobleTurno::aplicar(Jugador* jugador) {
-    std::cout << "Aplicando Power-Up: Doble Turno" << std::endl;
-    jugador->setNumTurnosExtra(2); // El jugador tiene dos turnos adicionales
+    std::cout << "Aplicando Power-Up: Doble Turno para el próximo turno" << std::endl;
+    jugador->setProximoTurnoDoble(true);
 }
+
 
 /**
  * Aplica el power-up Precisión de Movimiento al jugador.

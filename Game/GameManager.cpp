@@ -67,34 +67,30 @@ int GameManager::obtenerGanador(){
     return minIndice;
 }
 
-/**
- * Cambia el turno al siguiente jugador.
- */
-/**
- * Cambia el turno al siguiente jugador y genera un power-up.
- */
-/**
- * Cambia el turno al siguiente jugador y genera un power-up.
- */
-void GameManager::cambiarTurno() {
-    if (jugadores[jugadorActual]->getTanquesVivos() == 0) {
-        std::cout << "El jugador " << (jugadorActual + 1) << " ha perdido." << std::endl;
-    }
 
+/**
+ * Cambia el turno al siguiente jugador y genera un power-up.
+ */
+
+void GameManager::cambiarTurno() {
     if (jugadores[jugadorActual]->numTurnosExtra > 0) {
         jugadores[jugadorActual]->numTurnosExtra--;
-    } else {
-        jugadorActual = (jugadorActual + 1) % numJugadores;
+        std::cout << "Turno extra para el jugador " << (jugadorActual + 1) << std::endl;
+        return; // El jugador actual sigue jugando
     }
 
-    // Generar Power-Up para el siguiente jugador en turno
-    if (gameController) {
-        gameController->generarPowerUpAleatorio(jugadores[jugadorActual]);
+    jugadorActual = (jugadorActual + 1) % numJugadores;
+
+    if (jugadores[jugadorActual]->getProximoTurnoDoble()) {
+        jugadores[jugadorActual]->setNumTurnosExtra(1);
+        jugadores[jugadorActual]->setProximoTurnoDoble(false);
+        std::cout << "El jugador " << (jugadorActual + 2) << " ha activado el Doble Turno para esta ronda." << std::endl;
     }
 
     std::cout << "Es el turno del jugador: " << (jugadorActual + 1) << std::endl;
-}
 
+    gameController->generarPowerUpAleatorio(jugadores[jugadorActual]);
+}
 
 /**
  * Selecciona un tanque del jugador actual.
