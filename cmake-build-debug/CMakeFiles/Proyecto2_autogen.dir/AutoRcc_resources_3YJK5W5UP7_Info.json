@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack",
+	"CMAKE_SOURCE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/obstaculo.jpeg",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/lightBlue.png",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/blue.png",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/yellow.png",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/start_background.png",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/red.png"
+	],
+	"LOCK_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/mvasquezr/DatosII/Tank-Attack/resources/resources.qrc",
+	"VERBOSITY" : 0
+}

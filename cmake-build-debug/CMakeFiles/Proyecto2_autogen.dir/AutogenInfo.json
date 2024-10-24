@@ -1,37 +1,37 @@
 {
-	"BUILD_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen",
-	"CMAKE_BINARY_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2",
-	"CMAKE_EXECUTABLE" : "/snap/clion/296/bin/cmake/linux/x64/bin/cmake",
+	"BUILD_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack",
+	"CMAKE_EXECUTABLE" : "/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/CMakeLists.txt",
-		"/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake",
-		"/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake",
-		"/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/mvasquezr/DatosII/Tank-Attack/CMakeLists.txt",
+		"/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
+		"/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake",
+		"/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -40,7 +40,7 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake",
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
@@ -72,16 +72,126 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeParseArguments.cmake"
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"/home/mvasquezr/DatosII/Tank-Attack/resources/resources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2",
-	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack",
+	"DEP_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Proyecto2_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.h",
+			"MU",
+			"P4N2LYW5XE/moc_GameController.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.h",
+			"MU",
+			"P4N2LYW5XE/moc_GameManager.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.h",
+			"MU",
+			"P4N2LYW5XE/moc_Jugador.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.h",
+			"MU",
+			"P4N2LYW5XE/moc_PowerUp.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.h",
+			"MU",
+			"GV5D4H6SKQ/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.h",
+			"MU",
+			"GV5D4H6SKQ/moc_StartWindow.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.h",
+			"MU",
+			"QYQU7DJTUG/moc_Mapa.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Indestructible.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Objeto.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Suelo.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.h",
+			"MU",
+			"MZ2FZ7ZJ7U/moc_Tanque.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Astar.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Bfs.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Dijkstra.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.h",
+			"MU",
+			"3ZRGYGTA7I/moc_LineaVista.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.h",
+			"MU",
+			"3ZRGYGTA7I/moc_ListaPrioridad.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.h",
+			"MU",
+			"3ZRGYGTA7I/moc_RandomMovement.cpp",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.h",
+			"MU",
+			"3ZRGYGTA7I/moc_Ruta.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -115,27 +225,88 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/296/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+		"/opt/CLion/clion-2024.1.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/Proyecto2_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/Proyecto2_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/mvasquezr/DatosII/Tank-Attack/cmake-build-debug/CMakeFiles/Proyecto2_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jeremy/Codigos/Tarea/Datos 2/Proyecto2/main.cpp", "MU", null ]
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/GameController.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Game/GameManager.cpp",
+			"MU",
+			null
+		],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Game/Jugador.cpp", "MU", null ],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Game/PowerUp.cpp", "MU", null ],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Interfaz/StartWindow.cpp",
+			"MU",
+			null
+		],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Mapa/Mapa.cpp", "MU", null ],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Objetos/Indestructible.cpp",
+			"MU",
+			null
+		],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Objeto.cpp", "MU", null ],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Suelo.cpp", "MU", null ],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Objetos/Tanque.cpp", "MU", null ],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Astar.cpp",
+			"MU",
+			null
+		],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Bfs.cpp", "MU", null ],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Dijkstra.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/LineaVista.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/ListaPrioridad.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/RandomMovement.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/mvasquezr/DatosII/Tank-Attack/Pathfinding/Ruta.cpp",
+			"MU",
+			null
+		],
+		[ "/home/mvasquezr/DatosII/Tank-Attack/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],
 	"UIC_UI_FILES" : [],
-	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0
 }
