@@ -307,14 +307,6 @@ void GameController::onDisparoSeleccionado(int x, int y)
                     std::cout << "Precisión de Ataque desactivada para el próximo turno." << std::endl;
                 }
 
-                if (jugadorActual->getPrecisionAtaque())
-                {
-                    std::cout << "Power-Up Precisión de Ataque activado: utilizando algoritmo A*." << std::endl;
-                    Astar aStar;
-                    ruta = aStar.obtenerRuta(tanqueSeleccionado->getX(), tanqueSeleccionado->getY(), x, y, mapa);
-                    jugadorActual->setPrecisionAtaque(false); // Desactivar para el siguiente turno
-                }
-
                 else
                 {
                     // Usar el comportamiento normal sin power-up (linea de vista)
