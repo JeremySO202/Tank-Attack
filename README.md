@@ -15,7 +15,7 @@
 
 - **Algoritmos de Pathfinding**: Implementación de algoritmos como Dijkstra, BFS y movimientos aleatorios para navegar el mapa, además de A* para guiar los disparos.
 - **Interfaz Gráfica**: Desarrollada con Qt, facilita la visualización del mapa, los tanques, y el sistema de turnos, permitiendo a los jugadores interactuar de forma intuitiva.
-- **Power-Ups**: Los jugadores pueden recolectar power-ups que otorgan ventajas estratégicas, como movimientos más precisos, turnos extra, o mayor poder de ataque.
+- **Power-Ups**: Los jugadores reciben power-ups de manera aleatoria que otorgan ventajas estratégicas, como movimientos más precisos, turnos extra, o mayor poder de ataque.
 - **Gestión de Turnos**: Un sistema que coordina los turnos de cada jugador, asegurando el cumplimiento de las reglas del juego.
 
 ## Instalación
