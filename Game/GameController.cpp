@@ -109,6 +109,12 @@ void GameController::iniciarJuego()
     {
         if (tiempoRestante > 0)
         {
+            if(gameManager->getJugadorActual()->getTanquesVivos() == 0)
+            {
+                timer->stop();
+                int ganador = gameManager->obtenerGanador();
+                mostrarMensaje(ganador + 1);
+            }
             tiempoRestante--;
             mainWindow->actualizarInformacionJuego(gameManager->getJugadorActual(), tiempoRestante);
         }
